@@ -1,6 +1,6 @@
-# LiteLoaderQQNT-Homepage
+# Website
 
-LiteLoaderQQNT的主页
+LiteLoaderQQNT网站：主页 · 文档 · 教程 · 开发
 
 临时域名：
 - [llqqnt.mukapp.top](https://llqqnt.mukapp.top/)\
