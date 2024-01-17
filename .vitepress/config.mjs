@@ -32,7 +32,7 @@ export default defineConfig({
                         items: [
                             { text: "开始你的第一个插件", link: "/docs/introduction" },
                             { text: "LiteLoader API", link: "/docs/LiteLoader-API" },
-                            { text: "Web Components ", link: "/docs/Web-Components" }
+                            { text: "Web Components", link: "/docs/Web-Components" }
                         ]
                     }
                 ]
@@ -69,8 +69,8 @@ export default defineConfig({
             provider: "local",
         },
         footer: {
-            message: "Released under the MIT License.",
-            copyright: "Copyright © 2024 LiteLoaderQQNT"
+            message: "基于 MIT 许可发布",
+            copyright: "版权所有 © 2024 LiteLoaderQQNT"
         }
     }
 });
