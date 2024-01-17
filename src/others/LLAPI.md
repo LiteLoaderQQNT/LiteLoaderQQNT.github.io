@@ -2,13 +2,15 @@
  * @Author: Night-stars-1 nujj1042633805@gmail.com
  * @Date: 2023-08-19 13:57:11
  * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2023-08-30 22:34:39
+ * @LastEditTime: 2024-01-17 17:10:09
  * @Description: 
  * 
  * Copyright (c) 2023 by Night-stars-1, All Rights Reserved. 
 -->
 # LLAPI用法
-
+:::warning 注意
+**实验性**和**未完成**的API可能会发生变动导致不可用
+:::
 ## __func__ `LLAPI.on("new-messages", callback)`
 
 - **说明**
@@ -117,6 +119,27 @@
     LLAPI.add_editor("123")
     ```
 
+## __func__ `LLAPI.del_editor(type, space=false)`
+
+- **说明**
+
+    删除消息编辑栏的指定类型内容(实验性)
+
+- **参数**
+
+    - type(string): 消息类型
+    - space(boolean): 是否删除空格
+
+- **返回**
+
+    - (bool): 是否执行成功
+
+- **用法**
+
+    ```js
+    LLAPI.del_editor("msg-at", true)
+    ```
+    
 ## __func__ `LLAPI.add_message_list(peer, message)`
 
 - **说明**
