@@ -1,5 +1,11 @@
 # 安装
 
+::: warning 警告
+此文档为 LiteLoaderQQNT 1.0.0 编写
+:::
+
+
+
 ## 下载项目
 
 [项目下载地址](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/latest)
