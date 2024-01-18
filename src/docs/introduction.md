@@ -96,11 +96,11 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
     },
     // 可选，插件仓库信息
     "repository": {
-        "repo": "mo-jinran/chii-devtools",  // 必选，仓库短地址
-        "branch": "v3",                     // 必选，分支名称
+        "repo": "LiteLoaderQQNT/Plugin-Template",   // 必选，仓库短地址
+        "branch": "main",                           // 必选，分支名称
         "release": {
-            "tag": "0.1.0",                 // 必选，tag 名称，不推荐写 latest
-            "file": "chii-devtools.zip"     // 必选，release 内的文件名
+            "tag": "0.1.0",                         // 必选，tag 名称，不推荐写 latest
+            "file": "Plugin-Template.zip"           // 必选，release 内的文件名
         }
     }
 }
@@ -131,7 +131,7 @@ export const onSettingWindowCreated = (view) => {
 const { contextBridge, ipcRenderer } = require("electron");
 
 // 在渲染进程的全局对象上暴露对象
-contextBridge.exposeInMainWorld("chii_devtools", {});
+contextBridge.exposeInMainWorld("plugin_template", {});
 ```
 
 
