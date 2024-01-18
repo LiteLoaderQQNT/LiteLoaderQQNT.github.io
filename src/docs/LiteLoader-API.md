@@ -6,9 +6,15 @@
 
 
 
-## LiteLoader
+## 介绍
 
-一组可在 main | renderer | preload 环境内使用的常量与方法
+一组可在 `main` `renderer` `preload` 环境内使用的常量与方法，仅暴露与 LiteLoaderQQNT 相关内容
+
+
+
+## 用法
+
+
 
 ``` javascript
 LiteLoader.path.root    // 本体根目录路径
