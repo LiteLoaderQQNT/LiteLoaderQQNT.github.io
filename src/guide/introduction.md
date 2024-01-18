@@ -1,25 +1,43 @@
 # 介绍
 
+::: warning 警告
+此文档为 LiteLoaderQQNT 1.0.0 编写
+:::
+
+
+
+## 这是什么
+
+LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称为 LiteLoader。  
+它可以让你自由地为 QQNT 添加各种插件，并实现例如美化主题、增加功能等各种功能。
+
 :::warning 注意
 个人兴趣而制作，开发目的在于学习和探索，一切开发皆在学习，请勿用于非法用途  
 因使用本项目产生的一切问题与后果由使用者自行承担，项目开发者不承担任何责任
 :::
 
-LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称为 LiteLoader。  
-它可以让你自由地为 QQNT 添加各种插件，并实现例如美化主题、增加功能等各种功能。
+
+
+## 版本支持
+
+只要能装 QQNT 就能装 LiteLoaderQQNT  
+支持 Windows | Linux | MacOS 系统平台  
+支持 20811 以及老版本（截止目前新版未测）
 
 
 
 ## 外部链接
 
 ### Telegram
+
 群聊：https://t.me/LiteLoaderQQNT  
 频道：https://t.me/LiteLoaderQQNT_Channel
 
 ### LiteLoaderQQNT
+
 框架本体：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT  
 插件模板：https://github.com/LiteLoaderQQNT/Plugin-Template  
-插件列表：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT-Plugin-List
+插件列表：https://github.com/LiteLoaderQQNT/Plugin-List
 
 
 
