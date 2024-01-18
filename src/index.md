@@ -23,24 +23,36 @@ features:
   - icon: ⭐
     title: 插件招租位
     details: 插件招租位
+    link: /
+    linkText: "项目仓库"
 
   - icon: ⭐
     title: 插件招租位
     details: 插件招租位
+    link: /
+    linkText: "项目仓库"
 
   - icon: ⭐
     title: 插件招租位
     details: 插件招租位
+    link: /
+    linkText: "项目仓库"
 
   - icon: ⭐
     title: 插件招租位
     details: 插件招租位
+    link: /
+    linkText: "项目仓库"
 
   - icon: ⭐
     title: 插件招租位
     details: 插件招租位
+    link: /
+    linkText: "项目仓库"
 
   - icon: ⭐
     title: 还有更多
     details: 这里还有许多有趣的插件 / 也期待着你的加入
+    link: /
+    linkText: "插件市场（正在施工中）"
 ---

@@ -71,6 +71,7 @@ export default defineConfig({
         footer: {
             message: "基于 MIT 许可发布",
             copyright: "版权所有 © 2024 LiteLoaderQQNT"
-        }
+        },
+        externalLinkIcon: true
     }
 });
