@@ -31,8 +31,8 @@ export default defineConfig({
                         collapsed: false,
                         items: [
                             { text: "开始你的第一个插件", link: "/docs/introduction" },
-                            { text: "LiteLoader API", link: "/docs/LiteLoader-API" },
-                            { text: "Web Components", link: "/docs/Web-Components" }
+                            { text: "LiteLoader API", link: "/docs/liteloader-api" },
+                            { text: "Web Components", link: "/docs/web-components" }
                         ]
                     }
                 ]
