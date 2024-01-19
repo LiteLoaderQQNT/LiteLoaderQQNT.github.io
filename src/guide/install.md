@@ -6,41 +6,64 @@
 
 
 
-## 下载项目
+## 下载
 
-[项目下载地址](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/latest)
+你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
-将下载到的 `LiteLoaderQQNT.zip` 文件解压到任意位置 (比如你存放软件/工具的文件夹) 并记住该路径稍后会用到。
+### 通过 Release
 
-## 根据系统选择安装方式
+前往 LiteLoaderQQNT 仓库，在 Release 中 Latest 内 下载 LiteLoaderQQNT 文件，将压缩包内 LiteLoaderQQNT 目录解压到任意位置
 
-::: details windows
+### 通过 Clone
 
-### 修补 QQ.exe
+使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
 
-由于 Windows 上的 QQNT 添加了校验，需要执行以下步骤来避免程序闪退：
+``` shell
+git clone --depth 1 https://LiteLoaderQQNT/LiteLoaderQQNT.git
+```
 
-1. 右击 QQ 图标，选择 `打开文件位置` 以找到安装目录，复制当前路径，暂时不要关闭该文件夹。
+### 通过 第三方工具
 
-2. 根据 QQ 版本选择 Patch 程序。32 位版本使用 `QQNTPatcher_x86.exe`，64 位版本使用 `QQNTPatcher_x64.exe`。
+目前还没有第三方工具，这里只是招租位
 
-> 如何确定 QQ 版本：查看打开的安装路径，如果其中包含 `Program Files (x86)` 则为 32 位，没有则是 64 位
 
-3. 打开 `QQNTPatcher_*.exe` 程序会弹出文件选择框，粘贴 QQ 的安装路径并选择该目录下的 QQ.exe 文件。等待终端显示 `Patched!` 后关闭窗口。
+
+## 安装
+
+找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行 `require("此处为你 LiteLoaderQQNT 目录路径");`
+
+``` javascript
+require("E:\\LiteLoaderQQNT"); // 此处换成你 LiteLoaderQQNT 目录位置
+require('./launcher.node').load('external_index', module);
+```
+
+::: tip 提示
+路径分隔符建议使用 `/`（通用）或使用`\\`（仅限 Windows），单独使用 `\` 会导致报错
 :::
 
-#### 插入加载器代码
+::: warning 警告
+请确保 LiteLoaderQQNT 拥有 QQNT 安装目录的读写权限！
+:::
 
-1. 打开 QQ 安装目录，依次进入 `resources > app > app_launcher`。
 
-2. 用记事本或其他文本编辑器打开 `index.js`。
 
-3. 在文件顶部插入 `require("LiteLoaderQQNT 目录位置");` 将其中的 `LiteLoaderQQNT 目录位置` 替换为 `LiteLoaderQQNT` 文件夹路径，保存该文件。
-    <Badge type="danger" text="LiteLoaderQQNT 目录位置 的路径符号应为 / 而不是 \ " vertical="middle" />
+## 修补
 
-4. 重新启动 QQ 即可在设置界面看到 LiteLoaderQQNT 设置选项，安装完成，玩的开心！
+::: warning 警告
+此条目仅需 Windows 用户查看，其他系统无需继续阅读此条目
+:::
 
-#### 寻找LiteLoaderQQNT插件
-LiteLoaderQQNT的插件基本发布在GitHub,善用搜索可以快速的找到所需插件
+由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
 
-比如在搜索框键入关键词`LiteLoader`和`插件`，即可找到大量[LiteLoaderQQNT生态的插件](https://github.com/search?q=LiteLoader+%E6%8F%92%E4%BB%B6&type=repositories)
+你需要前往 QQNTFileVerifyPatch 仓库 Release 内，下载 QQNTPatcher 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
+
+
+
+## 检查
+
+按照上述教程完成安装后，有两种方法检查 LiteLoaderQQNT 是否成功安装
+
+- 运行 QQNT 并打开设置，查看左侧列表是否出现 `LiteLoaderQQNT` 选项
+- 使用终端运行 QQNT 查看是否有 LiteLoaderQQNT 相关内容输出显示
+
+如果有显示，即安装成功，玩的开心！
