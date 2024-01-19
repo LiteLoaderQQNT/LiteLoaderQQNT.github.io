@@ -48,9 +48,9 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 - `data-title` - 标题
 
 ``` html
-<setting-section data-title="设置1">...</setting-section>
-<setting-section data-title="设置2">...</setting-section>
-<setting-section data-title="设置3">...</setting-section>
+<setting-section data-title="标题1">...</setting-section>
+<setting-section data-title="标题2">...</setting-section>
+<setting-section data-title="标题3">...</setting-section>
 ```
 
 ### setting-panel
@@ -120,7 +120,7 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-select>...</setting-select>
             </setting-item>
         </setting-list>
@@ -139,7 +139,7 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-select>
                     <setting-option data-value="1" is-selected>...</setting-option>
                     <setting-option data-value="2">...</setting-option>
@@ -161,11 +161,10 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-switch>...</setting-switch>
-                <setting-switch is-active>...</setting-switch>
             </setting-item>
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-switch is-active>...</setting-switch>
             </setting-item>
         </setting-list>
@@ -186,16 +185,16 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-button data-type="primary">...</setting-button>
             </setting-item>
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-button data-type="secondary">...</setting-button>
             </setting-item>
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-button data-type="primary" is-disabled>...</setting-button>
             </setting-item>
-            <setting-item data-direction="column">
+            <setting-item>
                 <setting-button data-type="secondary" is-disabled>...</setting-button>
             </setting-item>
         </setting-list>
@@ -214,11 +213,11 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="column">
-                <setting-text>...</setting-text>
-            </setting-item>
-            <setting-item data-direction="column">
-                <setting-text data-type="secondary">...</setting-text>
+            <setting-item>
+                <div>
+                    <setting-text>...</setting-text>
+                    <setting-text data-type="secondary">...</setting-text>
+                </div>
             </setting-item>
         </setting-list>
     </setting-panel>
@@ -241,14 +240,14 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
-            <setting-item data-direction="row">...</setting-item>
+            <setting-item>...</setting-item>
             <data-orientation data-orientation="horizontal"></data-orientation>
-            <setting-item data-direction="row">...</setting-item>
+            <setting-item>...</setting-item>
         </setting-list>
         <setting-list data-direction="row">
-            <setting-item data-direction="column">...</setting-item>
+            <setting-item>...</setting-item>
             <data-orientation data-orientation="vertical"></data-orientation>
-            <setting-item data-direction="column">...</setting-item>
+            <setting-item>...</setting-item>
         </setting-list>
     </setting-panel>
 </setting-section>
