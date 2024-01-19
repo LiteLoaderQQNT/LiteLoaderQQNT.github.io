@@ -137,4 +137,8 @@ contextBridge.exposeInMainWorld("plugin_template", {});
 
 ## 上传插件
 
-正在施工中...
+如果你编写完成一个插件，想要上传到插件列表中提供给插件市场读取，请根据以下步骤进行：
+
+1. 你需要将插件开源在 GitHub 中并发布 Release 附带 zip 格式插件压缩包，确保 manifest.json 在最顶层
+2. 编辑 manifest.json 添加 repository 字段，确保 manifest.json 在最顶层，件市场会读取仓库内此文件
+3. 插件列表仓库 提交 Issues 或 Pull requests，仿造 plugins.json 内格式，将你的插件追加到文件末尾
