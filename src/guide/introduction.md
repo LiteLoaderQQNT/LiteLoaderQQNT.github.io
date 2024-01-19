@@ -8,8 +8,8 @@
 
 ## 这是什么
 
-LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称为 LiteLoader。  
-它可以让你自由地为 QQNT 添加各种插件，并实现例如美化主题、增加功能等各种功能。
+LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称为 LiteLoader  
+它可以让你自由地为 QQNT 添加各种插件，并实现例如美化主题、增加功能等各种功能
 
 :::warning 注意
 个人兴趣而制作，开发目的在于学习和探索，一切开发皆在学习，请勿用于非法用途  
@@ -22,7 +22,7 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 
 只要能装 QQNT 就能装 LiteLoaderQQNT  
 支持 `Windows` `Linux` `MacOS` 系统平台  
-支持 20811 以及老版本（截止目前新版未测）
+支持 20979 以及老版本（截止目前新版未测）
 
 
 
