@@ -14,6 +14,8 @@
 
 前往 LiteLoaderQQNT 仓库，在 Release 中 Latest 内 下载 LiteLoaderQQNT 文件，将压缩包内 LiteLoaderQQNT 目录解压到任意位置
 
+LiteLoaderQQNT：https://LiteLoaderQQNT/LiteLoaderQQNT
+
 ### 通过 Clone
 
 使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
@@ -56,6 +58,8 @@ require('./launcher.node').load('external_index', module);
 由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
 
 你需要前往 QQNTFileVerifyPatch 仓库 Release 内，下载 QQNTPatcher 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
+
+QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
 
 
 
