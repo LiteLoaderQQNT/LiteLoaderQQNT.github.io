@@ -21,9 +21,9 @@ hero:
 
 features:
   - icon: ⭐
-    title: 插件招租位
-    details: 插件招租位
-    link: /
+    title: Chii DevTools
+    details: 使用 Chii 进行远程调试
+    link: https://github.com/mo-jinran/chii-devtools
     linkText: "项目仓库"
 
   - icon: ⭐
