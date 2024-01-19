@@ -23,7 +23,8 @@ export default defineConfig({
                         collapsed: false,
                         items: [
                             { text: "介绍", link: "/guide/introduction" },
-                            { text: "安装", link: "/guide/install" }
+                            { text: "安装", link: "/guide/install" },
+                            { text: "插件", link: "/guide/plugins" }
                         ]
                     },
                     {
