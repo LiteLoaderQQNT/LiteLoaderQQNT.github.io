@@ -21,7 +21,7 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 ## 版本支持
 
 只要能装 QQNT 就能装 LiteLoaderQQNT  
-支持 Windows | Linux | MacOS 系统平台  
+支持 `Windows` `Linux` `MacOS` 系统平台  
 支持 20811 以及老版本（截止目前新版未测）
 
 

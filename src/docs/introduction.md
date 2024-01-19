@@ -12,7 +12,6 @@
   - 前端基础知识
   - Node.js
   - Electron
-
 - 环境搭建
   - QQNT
   - LiteLoaderQQNT
@@ -44,17 +43,17 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
 
 ### 目录结构
 
-- LiteLoaderQQNT（本体）
-  - data（数据目录）
-    - Plugin-Template（插件根目录）
-      - config.json
+- `LiteLoaderQQNT` - 本体
+  - `data` - 数据目录
+    - `Plugin-Template` - 插件根目录
+      - `config.json`
       - ...
-  - plugins（插件目录）
-    - Plugin-Template（插件根目录）
-      - src
-      - manifest.json
+  - `plugins` - 插件目录
+    - `Plugin-Template` - 插件根目录
+      - `src`
+      - `manifest.json`
       - ...
-  - src（本体源码）
+  - `src` - 本体源码
   - ...
 
 ### manifest.json
