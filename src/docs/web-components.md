@@ -12,21 +12,31 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 
 自定义标签全部由 `setting-` 开头，自定义属性全部由 `data-` `is-` 开头并且是响应式，以下是已封装实现的组件标签以及属性
 
+|                 | data-title | data-value | data-type | data-direction |
+|:---------------:|:----------:|:----------:|:---------:|:--------------:|
+| setting-section |     √      |            |           |                |
+|  setting-panel  |            |            |           |                |
+|  setting-list   |     √      |            |           |       √        |
+|  setting-item   |            |            |           |       √        |
+| setting-select  |            |            |           |                |
+| setting-option  |            |     √      |           |                |
+| setting-switch  |            |            |           |                |
+| setting-button  |            |            |     √     |                |
+|  setting-text   |            |            |     √     |                |
+| setting-divider |            |            |           |       √        |
 
-
-|                 | data-title | data-value | data-type | data-direction | data-orientation | is-collapsible | is-selected | is-active | is-disabled |
-|:---------------:|:----------:|:----------:|:---------:|:--------------:|:----------------:|:--------------:|:-----------:|:---------:|:-----------:|
-| setting-section |     √      |            |           |                |                  |                |             |           |             |
-|  setting-panel  |            |            |           |                |                  |                |             |           |             |
-|  setting-list   |     √      |            |           |       √        |                  |       √        |             |           |             |
-|  setting-item   |            |            |           |       √        |                  |                |             |           |             |
-| setting-select  |            |            |           |                |                  |                |             |           |             |
-| setting-option  |            |     √      |           |                |                  |                |      √      |           |             |
-| setting-switch  |            |            |           |                |                  |                |             |     √     |             |
-| setting-button  |            |            |     √     |                |                  |                |             |           |      √      |
-|  setting-text   |            |            |     √     |                |                  |                |             |           |             |
-| setting-divider |            |            |           |                |        √         |                |             |           |             |
-
+|                 | is-collapsible | is-selected | is-active | is-disabled |
+|:---------------:|:--------------:|:-----------:|:---------:|:-----------:|
+| setting-section |                |             |           |             |
+|  setting-panel  |                |             |           |             |
+|  setting-list   |       √        |             |           |             |
+|  setting-item   |                |             |           |             |
+| setting-select  |                |             |           |             |
+| setting-option  |                |      √      |           |             |
+| setting-switch  |                |             |     √     |             |
+| setting-button  |                |             |           |      √      |
+|  setting-text   |                |             |           |             |
+| setting-divider |                |             |           |             |
 
 
 ## 用法
