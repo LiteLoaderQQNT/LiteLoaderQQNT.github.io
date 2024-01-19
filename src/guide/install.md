@@ -14,7 +14,7 @@
 
 ## 根据系统选择安装方式
 
-<details> <summary>windows</summary>
+::: details windows
 
 ### 修补 QQ.exe
 
@@ -27,7 +27,7 @@
 > 如何确定 QQ 版本：查看打开的安装路径，如果其中包含 `Program Files (x86)` 则为 32 位，没有则是 64 位
 
 3. 打开 `QQNTPatcher_*.exe` 程序会弹出文件选择框，粘贴 QQ 的安装路径并选择该目录下的 QQ.exe 文件。等待终端显示 `Patched!` 后关闭窗口。
-</details>
+:::
 
 #### 插入加载器代码
 
@@ -36,5 +36,11 @@
 2. 用记事本或其他文本编辑器打开 `index.js`。
 
 3. 在文件顶部插入 `require("LiteLoaderQQNT 目录位置");` 将其中的 `LiteLoaderQQNT 目录位置` 替换为 `LiteLoaderQQNT` 文件夹路径，保存该文件。
+    <Badge type="danger" text="LiteLoaderQQNT 目录位置 的路径符号应为 / 而不是 \ " vertical="middle" />
 
 4. 重新启动 QQ 即可在设置界面看到 LiteLoaderQQNT 设置选项，安装完成，玩的开心！
+
+#### 寻找LiteLoaderQQNT插件
+LiteLoaderQQNT的插件基本发布在GitHub,善用搜索可以快速的找到所需插件
+
+比如在搜索框键入关键词`LiteLoader`和`插件`，即可找到大量[LiteLoaderQQNT生态的插件](https://github.com/search?q=LiteLoader+%E6%8F%92%E4%BB%B6&type=repositories)
