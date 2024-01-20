@@ -33,9 +33,9 @@ features:
     linkText: "项目仓库"
 
   - icon: ⭐
-    title: 插件招租位
-    details: 插件招租位
-    link: /
+    title: LLAPI
+    details: 封装部分API，简化开发
+    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-LLAPI
     linkText: "项目仓库"
 
   - icon: ⭐
