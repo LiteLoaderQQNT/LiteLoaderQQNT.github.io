@@ -14,7 +14,7 @@
 
 前往 LiteLoaderQQNT 仓库，在 Release 中 Latest 内，下载 `LiteLoaderQQNT.zip` 文件，将压缩包内 LiteLoaderQQNT 目录解压到任意位置
 
-LiteLoaderQQNT：https://LiteLoaderQQNT/LiteLoaderQQNT
+LiteLoaderQQNT：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT
 
 ### 通过 Clone
 
