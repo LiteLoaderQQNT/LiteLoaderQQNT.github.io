@@ -1,8 +1,3 @@
-/*
- * @Date: 2024-01-20 16:52:47
- * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
- * @LastEditTime: 2024-01-20 16:54:17
- */
 import { defineConfig } from "vitepress";
 
 
