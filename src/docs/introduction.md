@@ -26,7 +26,7 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 :::
 
 为了查看主进程输出，你需要使用终端（UTF-8 编码）来启动 QQNT  
-也可以在终端查看渲染进程输出，运行 QQNT 时添加 `--logging-enable`  
+也可以在终端查看渲染进程输出，运行 QQNT 时添加 `--enable-logging`  
 渲染进程需安装额外的插件（Chii DevTools）来获取残缺版 DevTools
 
 
@@ -81,6 +81,10 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
             "name": "LiteLoaderQQNT",                       // 必选，作者名字
             "link": "https://github.com/LiteLoaderQQNT"     // 必选，作者链接
         }
+    ],
+    // 可选，插件依赖项，写入插件slug名
+    "dependencies": [
+        "slug"
     ],
     // 必选，插件支持的系统平台，Windows: win32 | Linux: linux | MacOS: darwin
     "platform": [

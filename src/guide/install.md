@@ -14,14 +14,14 @@
 
 前往 LiteLoaderQQNT 仓库，在 Release 中 Latest 内，下载 `LiteLoaderQQNT.zip` 文件，将压缩包内 LiteLoaderQQNT 目录解压到任意位置
 
-LiteLoaderQQNT：https://LiteLoaderQQNT/LiteLoaderQQNT
+LiteLoaderQQNT：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT
 
 ### 通过 Clone
 
 使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
 
 ``` shell
-git clone --depth 1 https://LiteLoaderQQNT/LiteLoaderQQNT.git
+git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
 ```
 
 ### 通过 第三方工具
