@@ -26,7 +26,7 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 :::
 
 为了查看主进程输出，你需要使用终端（UTF-8 编码）来启动 QQNT  
-也可以在终端查看渲染进程输出，运行 QQNT 时添加 `--logging-enable`  
+也可以在终端查看渲染进程输出，运行 QQNT 时添加 `--enable-logging`  
 渲染进程需安装额外的插件（Chii DevTools）来获取残缺版 DevTools
 
 
