@@ -35,8 +35,8 @@ features:
   - icon: ⭐
     title: LLAPI
     details: 封装部分API，简化开发
-    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-LLAPI
-    linkText: "项目仓库"
+    link: https://llapi.srap.link/docs/LLAPI.html
+    linkText: "项目文档"
 
   - icon: ⭐
     title: 插件招租位

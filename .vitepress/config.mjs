@@ -1,3 +1,8 @@
+/*
+ * @Date: 2024-01-20 16:52:47
+ * @LastEditors: Night-stars-1 nujj1042633805@gmail.com
+ * @LastEditTime: 2024-01-20 16:54:17
+ */
 import { defineConfig } from "vitepress";
 
 
@@ -38,18 +43,6 @@ export default defineConfig({
                             { text: "LiteLoader API", link: "/docs/liteloader-api" },
                             { text: "Web Components", link: "/docs/web-components" },
                             { text: "自定义协议方案", link: "/docs/protocol-scheme" }
-                        ]
-                    }
-                ]
-            },
-            {
-                text: "其他",
-                items: [
-                    {
-                        text: "LLAPI",
-                        collapsed: false,
-                        items: [
-                            { text: "LLAPI用法", link: "/others/LLAPI" },
                         ]
                     }
                 ]
