@@ -7,6 +7,9 @@ export default defineConfig({
     lang: "zh-Hans",
     title: "LiteLoaderQQNT",
     description: "QQNT 插件加载器",
+    sitemap: {
+        hostname: "https://liteloaderqqnt.github.io"
+    },
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
