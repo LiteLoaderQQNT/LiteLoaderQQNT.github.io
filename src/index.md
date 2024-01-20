@@ -20,16 +20,16 @@ hero:
       link: https://github.com/LiteLoaderQQNT
 
 features:
+  - icon: 🎨
+    title: MSpring Theme
+    details: LiteLoaderQQNT 主题，优雅 · 粉粉 · 细致
+    link: https://github.com/MUKAPP/LiteLoaderQQNT-MSpring-Theme
+    linkText: "项目仓库"
+
   - icon: ⭐
     title: Chii DevTools
     details: 使用 Chii 进行远程调试
     link: https://github.com/mo-jinran/chii-devtools
-    linkText: "项目仓库"
-
-  - icon: ⭐
-    title: 插件招租位
-    details: 插件招租位
-    link: /
     linkText: "项目仓库"
 
   - icon: ⭐
