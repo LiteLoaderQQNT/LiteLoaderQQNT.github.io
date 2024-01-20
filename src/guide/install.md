@@ -21,7 +21,7 @@ LiteLoaderQQNT：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT
 使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
 
 ``` shell
-git clone --depth 1 https://LiteLoaderQQNT/LiteLoaderQQNT.git
+git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
 ```
 
 ### 通过 第三方工具
