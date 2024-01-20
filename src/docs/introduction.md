@@ -82,6 +82,10 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
             "link": "https://github.com/LiteLoaderQQNT"     // 必选，作者链接
         }
     ],
+    // 可选，插件依赖项，写入插件slug名
+    "dependencies": [
+        "slug"
+    ],
     // 必选，插件支持的系统平台，Windows: win32 | Linux: linux | MacOS: darwin
     "platform": [
         "win32",
