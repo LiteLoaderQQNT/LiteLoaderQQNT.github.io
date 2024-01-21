@@ -104,7 +104,7 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
         "branch": "main",                           // 必选，分支名称
         "release": {
             "tag": "0.1.0",                         // 必选，tag 名称，不推荐写 latest
-            "file": "Plugin-Template.zip"           // 必选，release 内的文件名
+            "file": "Plugin-Template.zip"           // 必选，release 内的文件名，如果你是想直接下载tag的源码则该项选填
         }
     }
 }
