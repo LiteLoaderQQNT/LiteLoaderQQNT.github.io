@@ -17,9 +17,10 @@
 
 
 ``` javascript
-LiteLoader.path.root    // 本体根目录路径
-LiteLoader.path.data    // 数据根目录路径
-LiteLoader.path.plugins // 插件根目录路径
+LiteLoader.path.root    // 本体目录路径
+LiteLoader.path.profile // 存储目录路径（如果指定了 LITELOADERQQNT_PROFILE 环境变量）
+LiteLoader.path.data    // 数据目录路径
+LiteLoader.path.plugins // 插件目录路径
 
 LiteLoader.versions.qqnt        // QQNT 版本号
 LiteLoader.versions.liteloader  // LiteLoaderQQNT 版本号
@@ -43,6 +44,7 @@ LiteLoader.plugins["slug"].path.injects.main        // 插件主进程脚本文�
 LiteLoader.plugins["slug"].path.injects.renderer    // 插件渲染进程脚本文件路径
 LiteLoader.plugins["slug"].path.injects.preload     // 插件预加载脚本文件路径
 
+LiteLoader.api.openPath(path)                   // 打开指定目录
 LiteLoader.api.openExternal(uri)                // 打开外部连接
 LiteLoader.api.disablePlugin(slug)              // 禁用指定插件
 LiteLoader.api.config.set(slug, new_config)     // 设置配置文件

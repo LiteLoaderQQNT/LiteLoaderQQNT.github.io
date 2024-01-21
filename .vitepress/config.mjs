@@ -19,27 +19,22 @@ export default defineConfig({
         ],
         sidebar: [
             {
-                text: "教程",
+                text: "开始使用",
+                collapsed: false,
                 items: [
-                    {
-                        text: "开始使用",
-                        collapsed: false,
-                        items: [
-                            { text: "介绍", link: "/guide/introduction" },
-                            { text: "安装", link: "/guide/install" },
-                            { text: "插件", link: "/guide/plugins" }
-                        ]
-                    },
-                    {
-                        text: "开发文档",
-                        collapsed: false,
-                        items: [
-                            { text: "开始你的第一个插件", link: "/docs/introduction" },
-                            { text: "LiteLoader API", link: "/docs/liteloader-api" },
-                            { text: "Web Components", link: "/docs/web-components" },
-                            { text: "自定义协议方案", link: "/docs/protocol-scheme" }
-                        ]
-                    }
+                    { text: "介绍", link: "/guide/introduction" },
+                    { text: "安装", link: "/guide/install" },
+                    { text: "插件", link: "/guide/plugins" }
+                ]
+            },
+            {
+                text: "开发文档",
+                collapsed: false,
+                items: [
+                    { text: "开始你的第一个插件", link: "/docs/introduction" },
+                    { text: "LiteLoader API", link: "/docs/liteloader-api" },
+                    { text: "Web Components", link: "/docs/web-components" },
+                    { text: "自定义协议方案", link: "/docs/protocol-scheme" }
                 ]
             }
         ],
