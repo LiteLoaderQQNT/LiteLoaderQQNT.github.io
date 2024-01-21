@@ -48,7 +48,12 @@ require('./launcher.node').load('external_index', module);
 :::
 
 ::: warning 警告
-请确保 LiteLoaderQQNT 拥有 QQNT 安装目录的读写权限！
+请确保拥有 QQNT 安装目录的读写权限！如果不想给予 QQNT 安装目录读写权限：  
+
+- 按照下文 环境变量 一节进行设置
+- 将 `LiteLoaderQQNT/src/preload.js` 复制到 `QQNT/resources/app/versions/此处为版本号/application/preload.js`
+
+LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复制，也就是说在更新本体后需再进行一次这步骤
 :::
 
 
