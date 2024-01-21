@@ -41,18 +41,6 @@ export default defineConfig({
                         ]
                     }
                 ]
-            },
-            {
-                text: "其他",
-                items: [
-                    {
-                        text: "LLAPI",
-                        collapsed: false,
-                        items: [
-                            { text: "LLAPI用法", link: "/others/LLAPI" },
-                        ]
-                    }
-                ]
             }
         ],
         editLink: {
