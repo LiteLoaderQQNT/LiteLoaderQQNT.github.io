@@ -63,7 +63,7 @@ git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
 {
     // 必选，当前版本为 4
     "manifest_version": 4,
-    // 可选，插件类型，可写 extension | theme
+    // 可选，插件类型，可写 extension | theme | framework
     "type": "extension",
     // 必选，插件名字
     "name": "插件模板",
