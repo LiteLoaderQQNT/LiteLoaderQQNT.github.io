@@ -20,9 +20,9 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 
 ## 版本支持
 
-只要能装 QQNT 就能装 LiteLoaderQQNT  
-支持 `Windows` `Linux` `MacOS` 系统平台  
-支持 20979 以及老版本（截止目前新版未测）
+理论支持 QQNT 全平台 全架构 全版本  
+能装 QQNT 就能装 LiteLoaderQQNT  
+兼容性好的没话说，我也觉得有点离谱
 
 
 
