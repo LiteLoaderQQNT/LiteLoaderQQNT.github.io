@@ -76,9 +76,10 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 - **如果你想完全重新开始，不会保留任何数据**
 
-  1. 删除 `LITELOADERQQNT_PROFILE` 环境变量
-  2. 删除 `LITELOADERQQNT_PROFILE` 存储目录
-  3. 删除 LiteLoaderQQNT 0.x 版本本体目录
+  1. 删除 LiteLoaderQQNT 0.x 版本本体目录
+  2. 删除 `LITELOADERQQNT_PROFILE` 环境变量
+  3. 删除 `LITELOADERQQNT_PROFILE` 存储目录
+  4. 删除 `QQNT/resources/app/versions/版本号/plugin-preloads.js`
 
 
 
