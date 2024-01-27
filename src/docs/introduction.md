@@ -49,6 +49,8 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 
 ### 手动创建
 
+不麻烦，也就创建几个文件的事情
+
 #### manifest.json
 
 ``` json
