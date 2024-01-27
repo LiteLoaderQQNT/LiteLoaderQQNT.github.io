@@ -33,37 +33,23 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 
 ## 编写插件
 
-::: tip 提示
+### 使用模板
 
-1.  可使用 插件模板 来快速创建，使用下面 Git 命令（需额外安装） Clone 到插件目录即可
+以下都需要用到 Git 工具，请先安装并配置
 
+- 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可
+    ```shell
+    npm create liteloader-plugin
+    ```
+- 使用 Git 来快速创建模板，执行下面命令到插件目录即可
     ``` shell
     git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
     ```
 
-2.  或者使用 npm 来快速创建，请确保 Git 已安装，执行下面命令并根据提示进行即可。
 
-    ```shell
-    npm create liteloader-plugin
-    ```
-:::
+### 手动创建
 
-### 目录结构
-
-- `LiteLoaderQQNT` - 本体
-  - `data` - 数据目录
-    - `Plugin-Template` - 插件根目录
-      - `config.json`
-      - ...
-  - `plugins` - 插件目录
-    - `Plugin-Template` - 插件根目录
-      - `src`
-      - `manifest.json`
-      - ...
-  - `src` - 本体源码
-  - ...
-
-### manifest.json
+#### manifest.json
 
 ``` json
 {
@@ -116,7 +102,7 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 }
 ```
 
-### 主进程
+#### 主进程
 
 ``` javascript
 // 创建窗口时触发
@@ -125,7 +111,7 @@ exports.onBrowserWindowCreated = (window) => {
 }
 ```
 
-### 渲染进程
+#### 渲染进程
 
 ``` javascript
 // 打开设置界面触发
@@ -134,7 +120,7 @@ export const onSettingWindowCreated = (view) => {
 }
 ```
 
-### 预加载脚本
+#### 预加载脚本
 
 ``` javascript
 // Electron 主进程 与 渲染进程 互相交互的桥梁
