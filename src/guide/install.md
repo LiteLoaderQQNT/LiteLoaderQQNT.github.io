@@ -91,7 +91,7 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
 
-前往 QQNTFileVerifyPatch 仓库，在 Release 中 Latest 内，下载 `QQNTPatcher_*.exe`（标*部分根据你系统架构选择）文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
+前往 QQNTFileVerifyPatch 仓库，在 Release 中 Latest 内，下载 `QQNTPatcher.exe` 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
 
 QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
 
