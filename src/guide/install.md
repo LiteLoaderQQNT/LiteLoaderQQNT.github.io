@@ -14,9 +14,7 @@
 
 
 
-## 全新安装
-
-### 下载
+## 下载
 
 你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
@@ -36,7 +34,7 @@
 
 
 
-### 安装
+## 安装
 
 找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行 `require("此处为你 LiteLoaderQQNT 目录路径");`
 
@@ -57,6 +55,39 @@ require('./launcher.node').load('external_index', module);
 
 LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复制，也就是说在更新本体后需再进行一次这步骤
 :::
+
+
+
+## 修补
+
+::: warning 警告
+此条目仅需 Windows 用户查看，其他系统无需继续阅读此条目
+:::
+
+由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
+
+前往 QQNTFileVerifyPatch 仓库，在 Release 中 Latest 内，下载 `QQNTPatcher.exe` 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
+
+QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
+
+
+
+## 检查
+
+按照上述教程完成安装后，有两种方法检查 LiteLoaderQQNT 是否成功安装
+
+- 运行 QQNT 并打开设置，查看左侧列表是否出现 `LiteLoaderQQNT` 选项
+- 使用终端运行 QQNT 查看是否有 LiteLoaderQQNT 相关内容输出显示
+
+如果有显示，即安装成功，玩的开心！
+
+
+
+## 存储目录
+
+支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` `config.json` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能
+
+如果你想将本体与存储目录合并在一起（便携软件）需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` `config.json` 移动回本体根目录下
 
 
 
@@ -81,35 +112,3 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
   3. 删除 `LITELOADERQQNT_PROFILE` 存储目录
   4. 删除 `QQNT/resources/app/versions/版本号/plugin-preloads.js`
 
-
-
-## 修补
-
-::: warning 警告
-此条目仅需 Windows 用户查看，其他系统无需继续阅读此条目
-:::
-
-由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
-
-前往 QQNTFileVerifyPatch 仓库，在 Release 中 Latest 内，下载 `QQNTPatcher.exe` 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
-
-QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
-
-
-
-## 存储目录
-
-支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` `config.json` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能
-
-如果你想将本体与存储目录合并在一起（便携软件）需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` `config.json` 移动回本体根目录下
-
-
-
-## 检查
-
-按照上述教程完成安装后，有两种方法检查 LiteLoaderQQNT 是否成功安装
-
-- 运行 QQNT 并打开设置，查看左侧列表是否出现 `LiteLoaderQQNT` 选项
-- 使用终端运行 QQNT 查看是否有 LiteLoaderQQNT 相关内容输出显示
-
-如果有显示，即安装成功，玩的开心！
