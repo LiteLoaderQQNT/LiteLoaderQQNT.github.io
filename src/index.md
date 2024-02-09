@@ -95,4 +95,16 @@ features:
   - title: DeepL
     details: 将 DeepL 翻译接入你的 QQNT
     link: https://github.com/MUKAPP/LiteLoaderQQNT-DeepL/tree/main
+
+  - title: 演示模式
+    details: 对界面上的元素进行模糊处理以便演示或截图
+    link: https://github.com/qianxuu/LiteLoaderQQNT-Plugin-Demo-mode/tree/main
+
+  - title: Telegram Theme
+    details: 高仿 Telegram 风格的 QQNT 主题
+    link: https://github.com/festoney8/LiteLoaderQQNT-Telegram-Theme/tree/v4
+
+  - title: JustF5
+    details: 添加F5刷新页面功能-若安装了QQNTim无须再安装
+    link: https://github.com/xinyihl/LiteLoaderQQNT-JustF5/tree/main
 ---
