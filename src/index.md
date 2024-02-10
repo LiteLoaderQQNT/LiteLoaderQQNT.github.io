@@ -107,4 +107,8 @@ features:
   - title: JustF5
     details: 添加F5刷新页面功能-若安装了QQNTim无须再安装
     link: https://github.com/xinyihl/LiteLoaderQQNT-JustF5/tree/main
+
+  - title: Audio Sender
+    details: 一个用于直接以语音形式发送音频文件的插件
+    link: https://github.com/xtaw/LiteLoaderQQNT-Audio-Sender/tree/master
 ---
