@@ -105,7 +105,7 @@ features:
     link: https://github.com/festoney8/LiteLoaderQQNT-Telegram-Theme/tree/v4
 
   - title: JustF5
-    details: 添加F5刷新页面功能-若安装了QQNTim无须再安装
+    details: 一个简单的给开发者用的功能，使用F5刷新页面无需打开调试工具刷新
     link: https://github.com/xinyihl/LiteLoaderQQNT-JustF5/tree/main
 
   - title: Audio Sender
