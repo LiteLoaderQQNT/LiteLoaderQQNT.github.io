@@ -151,6 +151,23 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 </setting-section>
 ```
 
+下拉框可通过 `selected` 事件监听选项修改，示例：
+
+``` html
+<setting-select>
+    <setting-option data-value="1" is-selected>a</setting-option>
+    <setting-option data-value="2">b</setting-option>
+    <setting-option data-value="3">c</setting-option>
+</setting-select>
+```
+
+``` javaScript
+  const settingSelectElement = document.addEventListener("setting-select");
+  settingSelectElement.addEventListener("selected", (event) => {
+    console.log(event); // {detail: {name: 'b', value: '2'}}
+  })
+```
+
 ### setting-switch
 
 开关按钮
