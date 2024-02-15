@@ -111,4 +111,8 @@ features:
   - title: Audio Sender
     details: 一个用于直接以语音形式发送音频文件的插件
     link: https://github.com/xtaw/LiteLoaderQQNT-Audio-Sender/tree/master
+
+  - title: QQRedPackGetter
+    details: 基于模拟点击实现的QQ抢红包工具
+    link: https://github.com/kagg886/QQRedPackGetter/tree/master
 ---
