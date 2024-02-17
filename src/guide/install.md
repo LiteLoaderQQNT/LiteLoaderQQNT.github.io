@@ -36,16 +36,12 @@
 
 ## 安装
 
-找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行 `require("此处为你 LiteLoaderQQNT 目录路径");`
+找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行``require(String.raw`此处为你 LiteLoaderQQNT 目录路径`);``
 
 ``` javascript
-require("E:\\LiteLoaderQQNT"); // 此处换成你 LiteLoaderQQNT 目录位置
+require(String.raw`C:\LiteloaderQQNT`); // 此处换成你 LiteLoaderQQNT 目录位置
 require('./launcher.node').load('external_index', module);
 ```
-
-::: tip 提示
-路径分隔符建议使用 `/`（通用）或使用 `\\`（仅限 Windows），单独使用 `\` 会导致报错
-:::
 
 ::: warning 警告
 请确保拥有 QQNT 安装目录的读写权限！如果不想给予 QQNT 安装目录读写权限
@@ -64,12 +60,25 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 此条目仅需 Windows 用户查看，其他系统无需继续阅读此条目
 :::
 
-由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制
+由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制,有下列三种方式：
 
-前往 QQNTFileVerifyPatch 仓库，在 Release 中 Latest 内，下载 `QQNTPatcher.exe` 文件，以管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，等待输出修补完成即可关闭软件
+- **DLLHijackMethod**
 
-QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
+    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
 
+    DLLHijackMethod：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod
+
+- **QQNTFileVerifyPatch**
+
+    在 Release 下载 exe 文件，管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，每次更新都需要重新 Patch
+
+    QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
+
+- **V8Killer**
+
+    此方式目前过于麻烦，且需要自行寻找对应的 RVA 偏移量，只说明此方式的可行性，需自行探索使用方式
+
+    V8Killer：https://github.com/ShellWen/v8_killer
 
 
 ## 检查
@@ -111,4 +120,3 @@ QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
   2. 删除 `LITELOADERQQNT_PROFILE` 环境变量
   3. 删除 `LITELOADERQQNT_PROFILE` 存储目录
   4. 删除 `QQNT/resources/app/versions/版本号/plugin-preloads.js`
-
