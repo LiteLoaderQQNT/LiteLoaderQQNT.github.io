@@ -64,21 +64,18 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 - **DLLHijackMethod**
 
-    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
-
-    DLLHijackMethod：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod
+    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可  
+    仓库：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod
 
 - **QQNTFileVerifyPatch**
 
-    在 Release 下载 exe 文件，管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，每次更新都需要重新 Patch
-
-    QQNTFileVerifyPatch：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
+    在 Release 下载 exe 文件，管理员身份运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，每次更新都需要重新修补  
+    仓库：https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
 
 - **V8Killer**
 
-    此方式目前过于麻烦，且需要自行寻找对应的 RVA 偏移量，只说明此方式的可行性，需自行探索使用方式
-
-    V8Killer：https://github.com/ShellWen/v8_killer
+    此方式目前过于麻烦，且需要自行寻找对应的 RVA 偏移量，只说明此方式的可行性，需自行探索使用方式  
+    仓库：https://github.com/ShellWen/v8_killer
 
 
 ## 检查
