@@ -115,4 +115,8 @@ features:
   - title: QQRedPackGetter
     details: 基于模拟点击实现的QQ抢红包工具
     link: https://github.com/kagg886/QQRedPackGetter/tree/master
+
+  - title: MomotalkNTQQ 主题
+    details: 低仿 MomotalkNTQQ 风格的 QQNT 主题
+    link: https://github.com/MiyakoLol/MomoTalkNTQQ-Theme/tree/v4
 ---
