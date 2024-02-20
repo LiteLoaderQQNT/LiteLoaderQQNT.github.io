@@ -119,4 +119,12 @@ features:
   - title: MomotalkNTQQ 主题
     details: 低仿 MomotalkNTQQ 风格的 QQNT 主题
     link: https://github.com/MiyakoLol/MomoTalkNTQQ-Theme/tree/v4
+
+  - title: Fake Message
+    details: 一个用于伪造转发聊天记录的插件
+    link: https://github.com/xtaw/LiteLoaderQQNT-Fake-Message/tree/master
+
+  - title: 自定义聊天气泡
+    details: 自定义聊天气泡禾字体颜色
+    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-Message/tree/master
 ---
