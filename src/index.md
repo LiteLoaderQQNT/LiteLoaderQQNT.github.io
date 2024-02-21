@@ -127,4 +127,8 @@ features:
   - title: 自定义聊天气泡
     details: 自定义聊天气泡禾字体颜色
     link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-Message/tree/master
+
+  - title: More Materials
+    details: 添加更多的背景材质，替换原本的透明效果（Windows 11 22H2 及以上，Linux + KDE + X11）
+    link: https://github.com/mo-jinran/more-materials/tree/main
 ---
