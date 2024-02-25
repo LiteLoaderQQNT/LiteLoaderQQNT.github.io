@@ -131,4 +131,12 @@ features:
   - title: More Materials
     details: 添加更多的背景材质，替换原本的透明效果（Windows 11 22H2 及以上，Linux + KDE + X11）
     link: https://github.com/mo-jinran/more-materials/tree/main
+
+  - title: Native Conetxt Menu
+    details: 为右键菜单使用原生形式，多级菜单支持需要hook-vue来运行
+    link: https://github.com/ghostflyby/LiteLoaderQQNT-Native-Menu/tree/main
+
+  - title: 文本转语音
+    details: 可将输入字符转为语音发送。
+    link: https://github.com/lclichen/LiteLoaderQQNT-TTS/tree/main
 ---
