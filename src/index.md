@@ -139,4 +139,8 @@ features:
   - title: 文本转语音
     details: 可将输入字符转为语音发送。
     link: https://github.com/lclichen/LiteLoaderQQNT-TTS/tree/main
+
+  - title: Markdown-it
+    details: 为 QQNT 提供 Markdown 渲染
+    link: https://github.com/d0j1a1701/LiteLoaderQQNT-Markdown/tree/v4
 ---
