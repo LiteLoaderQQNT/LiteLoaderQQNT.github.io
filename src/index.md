@@ -143,4 +143,12 @@ features:
   - title: Markdown-it
     details: 为 QQNT 提供 Markdown 渲染
     link: https://github.com/d0j1a1701/LiteLoaderQQNT-Markdown/tree/v4
+
+  - title: QQCleaner
+    details: QQCleaner for QQNT
+    link: https://github.com/MisaLiu/LiteLoaderQQNT-QQCleaner/tree/master
+
+  - title: llpangu
+    details: · 盘古 | 开天辟地 ·
+    link: https://github.com/MisaLiu/LiteLoaderQQNT-Pangu/tree/master
 ---
