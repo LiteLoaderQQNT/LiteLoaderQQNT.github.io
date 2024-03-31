@@ -151,4 +151,8 @@ features:
   - title: llpangu
     details: · 盘古 | 开天辟地 ·
     link: https://github.com/MisaLiu/LiteLoaderQQNT-Pangu/tree/master
+
+  - title: 歪比巴卜
+    details: 文字图片消息加密~
+    link: https://github.com/yuyumoko/LiteLoaderQQNT-Plugin-Eencode/tree/main
 ---
