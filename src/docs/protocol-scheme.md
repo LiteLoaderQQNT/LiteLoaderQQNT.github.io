@@ -1,7 +1,7 @@
 # 自定义协议方案
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.0.0 编写
+此文档为 LiteLoaderQQNT 1.1.x 编写
 :::
 
 
@@ -16,4 +16,5 @@
 
 ### local
 
-`file` 协议的代替方案，读取本地文件，使用绝对路径
+`file` 协议的代替方案，读取本地文件，使用绝对路径  
+`host` 可填写 `root` `profile` 到目录下拼接路径

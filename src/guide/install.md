@@ -1,7 +1,7 @@
 # 安装
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.0.0 编写
+此文档为 LiteLoaderQQNT 1.1.x 编写
 :::
 
 

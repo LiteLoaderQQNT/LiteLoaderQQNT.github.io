@@ -1,7 +1,7 @@
 # 开始你的第一个插件
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.0.0 编写
+此文档为 LiteLoaderQQNT 1.1.x 编写
 :::
 
 
@@ -67,8 +67,10 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
     "description": "LiteLoaderQQNT的插件模板",
     // 必选，版本号
     "version": "0.1.0",
-    // 可选，插件图标，写入相对路径字符串，也可以是 null
+    // 可选，插件的图标，写入相对路径字符串，也可以是 null
     "icon": null,
+    // 可选，设置选项的图标，写入相对路径字符串，也可以是 null
+    "thumb": null,
     // 必选，作者们的信息
     "authors": [
         {
@@ -94,11 +96,16 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
     },
     // 可选，插件仓库信息
     "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",   // 必选，仓库短地址
-        "branch": "main",                           // 必选，分支名称
+        // 必选，仓库短地址
+        "repo": "LiteLoaderQQNT/Plugin-Template",
+        // 必选，分支名称
+        "branch": "main",
+        // 可选，不写将使用仓库源码
         "release": {
-            "tag": "0.1.0",                         // 必选，tag 名称，不推荐写 latest
-            "file": "Plugin-Template.zip"           // 可选，release 内的文件名，不填会直接下载 tag 的源码
+            // 必选，tag 名称，不推荐写 latest
+            "tag": "0.1.0",
+            // 可选，release 内的文件名，不填会直接下载 tag 的源码
+            "file": "Plugin-Template.zip"
         }
     }
 }

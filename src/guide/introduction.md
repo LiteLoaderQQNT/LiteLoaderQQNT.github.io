@@ -1,7 +1,7 @@
 # 介绍
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.0.0 编写
+此文档为 LiteLoaderQQNT 1.1.x 编写
 :::
 
 
@@ -20,9 +20,8 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 
 ## 版本支持
 
-理论支持 QQNT 桌面端 全架构 全版本  
-能装 QQNT 就能装 LiteLoaderQQNT  
-兼容性好的没话说，我也觉得有点离谱
+支持 QQNT 桌面端 全架构 最低 `20667` 版本到官网最新版  
+更老的版本也支持，只是设置界面样式会崩坏，不介意也可以用
 
 
 
