@@ -155,4 +155,8 @@ features:
   - title: 歪比巴卜
     details: 文字图片消息加密~
     link: https://github.com/yuyumoko/LiteLoaderQQNT-Plugin-Eencode/tree/main
+
+  - title: pURLfy
+    details: 🧹 链接净化
+    link: https://github.com/PRO-2684/pURLfy/tree/main
 ---
