@@ -17,6 +17,7 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 |                 | data-title | data-value | data-type | data-direction |
 |:---------------:|:----------:|:----------:|:---------:|:--------------:|
 | setting-section |     √      |            |           |                |
+|  setting-panel  |            |            |           |                |
 |  setting-list   |     √      |            |           |       √        |
 |  setting-item   |            |            |           |       √        |
 | setting-select  |            |            |           |                |
@@ -29,6 +30,7 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 |                 | is-collapsible | is-selected | is-active | is-disabled |
 |:---------------:|:--------------:|:-----------:|:---------:|:-----------:|
 | setting-section |                |             |           |      √      |
+|  setting-panel  |                |             |           |      √      |
 |  setting-list   |       √        |             |     √     |      √      |
 |  setting-item   |                |             |           |      √      |
 | setting-select  |                |             |           |      √      |
@@ -53,6 +55,18 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 <setting-section>...</setting-section>
 ```
 
+### setting-panel
+
+选项容器
+
+``` html
+<setting-section data-title="标题">
+    <setting-panel>...</setting-panel>
+    <setting-panel>...</setting-panel>
+    <setting-panel>...</setting-panel>
+</setting-section>
+```
+
 ### setting-list
 
 选项列表
@@ -64,19 +78,14 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
   - `data-title` - 标题
   - `data-direction` - 排列方向
     - `column` - 纵向
-- `is-disabled` 禁用
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">...</setting-list>
-</setting-section>
-
-<setting-section>
-    <setting-list data-direction="row">...</setting-list>
-</setting-section>
-
-<setting-section>
-    <setting-list data-direction="column" is-collapsible data-title="折叠列表">...</setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">...</setting-list>
+        <setting-list data-direction="row">...</setting-list>
+        <setting-list data-direction="column" is-collapsible data-title="折叠列表">...</setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -90,15 +99,14 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item data-direction="row">...</setting-item>
-    </setting-list>
-</setting-section>
-
-<setting-section>
-    <setting-list data-direction="row">
-        <setting-item data-direction="column">...</setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item data-direction="row">...</setting-item>
+        </setting-list>
+        <setting-list data-direction="row">
+            <setting-item data-direction="column">...</setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -106,15 +114,15 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 
 下拉选择框
 
-- `is-disabled` 禁用
-
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>
-            <setting-select>...</setting-select>
-        </setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>
+                <setting-select>...</setting-select>
+            </setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -123,20 +131,20 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 选择框选项
 
 - `data-value` - 数据值
-- `is-selected` - 是否为已选择
-- `is-disabled` 禁用
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>
-            <setting-select>
-                <setting-option data-value="1" is-selected>...</setting-option>
-                <setting-option data-value="2">...</setting-option>
-                <setting-option data-value="3">...</setting-option>
-            </setting-select>
-        </setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>
+                <setting-select>
+                    <setting-option data-value="1" is-selected>...</setting-option>
+                    <setting-option data-value="2">...</setting-option>
+                    <setting-option data-value="3">...</setting-option>
+                </setting-select>
+            </setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -151,9 +159,9 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 ```
 
 ``` javaScript
-const settingSelectElement = document.querySelector("SETTING-SELECT");
+const settingSelectElement = document.querySelector("setting-select");
 settingSelectElement.addEventListener("selected", (event) => {
-    console.log(event); // {detail: {name: 'b', value: '2'}}
+    console.log(event.detail); // {name: 'b', value: '2'}
 })
 ```
 
@@ -161,19 +169,18 @@ settingSelectElement.addEventListener("selected", (event) => {
 
 开关按钮
 
-- `is-active` - 是否为激活
-- `is-disabled` 禁用
-
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>
-            <setting-switch>...</setting-switch>
-        </setting-item>
-        <setting-item>
-            <setting-switch is-active>...</setting-switch>
-        </setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>
+                <setting-switch>...</setting-switch>
+            </setting-item>
+            <setting-item>
+                <setting-switch is-active>...</setting-switch>
+            </setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -184,24 +191,25 @@ settingSelectElement.addEventListener("selected", (event) => {
 - `data-type` - 类型
   - `primary` - 主要
   - `secondary` - 次要
-- `is-disabled` - 禁用
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>
-            <setting-button data-type="primary">...</setting-button>
-        </setting-item>
-        <setting-item>
-            <setting-button data-type="secondary">...</setting-button>
-        </setting-item>
-        <setting-item>
-            <setting-button data-type="primary" is-disabled>...</setting-button>
-        </setting-item>
-        <setting-item>
-            <setting-button data-type="secondary" is-disabled>...</setting-button>
-        </setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>
+                <setting-button data-type="primary">...</setting-button>
+            </setting-item>
+            <setting-item>
+                <setting-button data-type="secondary">...</setting-button>
+            </setting-item>
+            <setting-item>
+                <setting-button data-type="primary" is-disabled>...</setting-button>
+            </setting-item>
+            <setting-item>
+                <setting-button data-type="secondary" is-disabled>...</setting-button>
+            </setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -214,14 +222,16 @@ settingSelectElement.addEventListener("selected", (event) => {
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>
-            <div>
-                <setting-text>...</setting-text>
-                <setting-text data-type="secondary">...</setting-text>
-            </div>
-        </setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>
+                <div>
+                    <setting-text>...</setting-text>
+                    <setting-text data-type="secondary">...</setting-text>
+                </div>
+            </setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
 
@@ -239,15 +249,17 @@ settingSelectElement.addEventListener("selected", (event) => {
 
 ``` html
 <setting-section data-title="标题">
-    <setting-list data-direction="column">
-        <setting-item>...</setting-item>
-        <data-orientation data-orientation="horizontal"></data-orientation>
-        <setting-item>...</setting-item>
-    </setting-list>
-    <setting-list data-direction="row">
-        <setting-item>...</setting-item>
-        <data-orientation data-orientation="vertical"></data-orientation>
-        <setting-item>...</setting-item>
-    </setting-list>
+    <setting-panel>
+        <setting-list data-direction="column">
+            <setting-item>...</setting-item>
+            <data-orientation data-orientation="horizontal"></data-orientation>
+            <setting-item>...</setting-item>
+        </setting-list>
+        <setting-list data-direction="row">
+            <setting-item>...</setting-item>
+            <data-orientation data-orientation="vertical"></data-orientation>
+            <setting-item>...</setting-item>
+        </setting-list>
+    </setting-panel>
 </setting-section>
 ```
