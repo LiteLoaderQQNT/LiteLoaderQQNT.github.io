@@ -158,5 +158,5 @@ features:
 
   - title: pURLfy
     details: 🧹 链接净化
-    link: https://github.com/PRO-2684/pURLfy/tree/main
+    link: https://github.com/PRO-2684/LiteLoaderQQNT-pURLfy/tree/main
 ---
