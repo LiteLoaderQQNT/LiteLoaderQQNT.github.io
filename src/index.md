@@ -28,14 +28,6 @@ features:
     details: LiteLoaderQQNT 主题，优雅 · 粉粉 · 细致
     link: https://github.com/MUKAPP/LiteLoaderQQNT-MSpring-Theme/tree/v4
 
-  - title: QQ增强
-    details: 复读姬，二维码识别，时间显示，翻译，屏蔽更新，链接预览，ChatGPT，禁止回复自动AT，侧边栏管理，自动登录，屏蔽通话，群聊名称扩展
-    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-QQPromote/tree/master
-
-  - title: LLAPI
-    details: LiteLoaderQQNT的插件API
-    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-LLAPI/tree/main
-
   - title: Scriptio
     details: 自定义渲染层 JavaScript 脚本加载器
     link: https://github.com/PRO-2684/Scriptio/tree/main
@@ -47,10 +39,6 @@ features:
   - title: 轻量工具箱
     details: 轻量 · 优雅 · 高效
     link: https://github.com/xiyuesaves/lite_tools/tree/v4
-
-  - title: 插件商店
-    details: 插件商店
-    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-Plugin-Store/tree/master
 
   - title: 窗口置顶
     details: 添加窗口置顶按钮
@@ -123,10 +111,6 @@ features:
   - title: Fake Message
     details: 一个用于伪造转发聊天记录的插件
     link: https://github.com/xtaw/LiteLoaderQQNT-Fake-Message/tree/master
-
-  - title: 自定义聊天气泡
-    details: 自定义聊天气泡禾字体颜色
-    link: https://github.com/Night-stars-1/LiteLoaderQQNT-Plugin-Message/tree/master
 
   - title: More Materials
     details: 添加更多的背景材质，替换原本的透明效果（Windows 11 22H2 及以上，Linux + KDE + X11）
