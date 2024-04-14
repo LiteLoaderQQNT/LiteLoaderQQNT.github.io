@@ -143,4 +143,8 @@ features:
   - title: pURLfy
     details: 🧹 链接净化
     link: https://github.com/PRO-2684/LiteLoaderQQNT-pURLfy/tree/main
+
+  - title: Euphony
+    details: 一个为LiteLoaderQQNT插件提供基础功能的依赖
+    link: https://github.com/xtaw/LiteLoaderQQNT-Euphony/tree/master
 ---
