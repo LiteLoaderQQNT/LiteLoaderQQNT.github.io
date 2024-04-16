@@ -102,23 +102,6 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 
 
-## 从 0.x 更新
+## 更新QQNT
 
-::: warning 警告
-如果你是 0.x 版本的老用户想升级到 1.x 版本，请阅读此条目
-:::
-
-完成上述安装，还原 0.x 版本需修改的 `package.json` 文件 `main` 字段
-
-- **如果你想保留插件数据，比如防撤回的数据**
-
-  1. 在存储目录中将 `plugins_data` 重命名为 `data`
-  2. 除 `data` 外，删除其他所有文件
-  3. 根据上述 `存储目录` 一栏进行操作
-
-- **如果你想完全重新开始，不会保留任何数据**
-
-  1. 删除 LiteLoaderQQNT 0.x 版本本体目录
-  2. 删除 `LITELOADERQQNT_PROFILE` 环境变量
-  3. 删除 `LITELOADERQQNT_PROFILE` 存储目录
-  4. 删除 `QQNT/resources/app/versions/版本号/plugin-preloads.js`
+每次更新 QQNT 都需要重新根据上述教程重新修补
