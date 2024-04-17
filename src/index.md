@@ -147,4 +147,24 @@ features:
   - title: Euphony
     details: 一个为LiteLoaderQQNT插件提供基础功能的依赖
     link: https://github.com/xtaw/LiteLoaderQQNT-Euphony/tree/master
+
+  - title: Image Search
+    details: NekoImage Search in LiteLoaderQQNT
+    link: https://github.com/pk5ls20/LiteLoaderQQNT-NekoImage/tree/main
+
+  - title: 自动同意好友
+    details: 一个自动同意好友的插件！
+    link: https://github.com/hunyan1/LiteLoaderQQNT-Consent/tree/master
+
+  - title: Editor Auto Script
+    details: 为QQNT编辑区域添加拦截格式化字符串指令的功能，将对应匹配的指令字符串替换为对应指令的文字输出或者执行代码
+    link: https://github.com/Eticeweng/LiteLoaderQQNT-Editor-Auto-Script/tree/main
+
+  - title: Link Preview
+    details: 为聊天区域中的所有链接添加其网页标题和图标，适用于所有http或https协议的链接
+    link: https://github.com/Eticeweng/LiteLoaderQQNT-Link-Preview/tree/master
+
+  - title: Translate
+    details: QQ 消息翻译
+    link: https://github.com/liaozhangsheng/LiteLoaderQQNT-Translate/tree/master
 ---
