@@ -37,15 +37,18 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 
 以下都需要用到 Git 工具，请先安装并配置
 
-- 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可
+- 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可（第三方）
     ```shell
     npm create liteloader-plugin
     ```
-- 使用 Git 来快速创建模板，执行下面命令到插件目录即可
+- 使用 Git 来快速创建模板，执行下面命令到插件目录即可（官方）
     ``` shell
     git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
     ```
-
+- 使用 Git 来快速创建模板，执行下面命令到插件目录即可（第三方）
+    ``` shell
+    git clone https://github.com/MisaLiu/LiteLoaderQQNT-PluginTemplate-Vite.git --depth 1
+    ```
 
 ### 手动创建
 
