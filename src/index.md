@@ -148,8 +148,8 @@ features:
     details: 一个为LiteLoaderQQNT插件提供基础功能的依赖
     link: https://github.com/xtaw/LiteLoaderQQNT-Euphony/tree/master
 
-  - title: Image Search
-    details: NekoImage Search in LiteLoaderQQNT
+  - title: NekoImageGallerySearch
+    details: Another web UI for NekoImageGallery, seamlessly integrated with NTQQ through LiteLoaderQQNT
     link: https://github.com/pk5ls20/LiteLoaderQQNT-NekoImageGallerySearch/tree/main
 
   - title: 自动同意好友
