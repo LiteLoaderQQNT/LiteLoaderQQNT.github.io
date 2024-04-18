@@ -150,7 +150,7 @@ features:
 
   - title: Image Search
     details: NekoImage Search in LiteLoaderQQNT
-    link: https://github.com/pk5ls20/LiteLoaderQQNT-NekoImage/tree/main
+    link: https://github.com/pk5ls20/LiteLoaderQQNT-NekoImageGallerySearch/tree/main
 
   - title: 自动同意好友
     details: 一个自动同意好友的插件！
