@@ -167,4 +167,8 @@ features:
   - title: Translate
     details: QQ 消息翻译
     link: https://github.com/liaozhangsheng/LiteLoaderQQNT-Translate/tree/master
+
+  - title: 自动发送消息
+    details: 自动发送消息，允许定时发送、定群发送、自定义消息内容
+    link: https://github.com/adproqwq/LiteLoaderQQNT-AutoSendMessages/tree/main
 ---
