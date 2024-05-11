@@ -171,4 +171,16 @@ features:
   - title: 定时消息
     details: 自动发送消息，允许定时发送、定群发送、自定义消息内容
     link: https://github.com/adproqwq/LiteLoaderQQNT-AutoSendMessages/tree/main
+
+  - title: PluginInstaller
+    details: 插件安装器
+    link: https://github.com/xinyihl/LiteLoaderQQNT-PluginInstaller/tree/main
+
+  - title: 插件列表查看
+    details: 插件列表查看·安装·更新
+    link: https://github.com/ltxhhz/LL-plugin-list-viewer/tree/main
+
+  - title: 插件检测更新API
+    details: 为LiteLoaderQQNT插件提供一个检测更新的API
+    link: https://github.com/adproqwq/LiteLoaderQQNT-CheckUpdateModule/tree/main
 ---
