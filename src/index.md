@@ -183,4 +183,8 @@ features:
   - title: 插件检测更新API
     details: 为LiteLoaderQQNT插件提供一个检测更新的API
     link: https://github.com/adproqwq/LiteLoaderQQNT-CheckUpdateModule/tree/main
+    
+  - title: GPT-Reply
+    details: 在 QQNT 直接使用ChatGPT进行回复
+    link: https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply/tree/main
 ---
