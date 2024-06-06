@@ -187,4 +187,8 @@ features:
   - title: GPT-Reply
     details: 在 QQNT 直接使用ChatGPT进行回复
     link: https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply/tree/main
+    
+  - title: QQ消息修改
+    details: 聊天界面，右键点击文本消息，选择【编辑消息内容】编辑即可
+    link: https://github.com/lianquke/LiteLoaderQQNT-MessageEdit/tree/main
 ---
