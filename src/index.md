@@ -191,4 +191,8 @@ features:
   - title: QQ消息修改
     details: 聊天界面，右键点击文本消息，选择【编辑消息内容】编辑即可
     link: https://github.com/lianquke/LiteLoaderQQNT-MessageEdit/tree/main
+    
+  - title: Daily Card
+    details: 一个用于自动抽取每日幸运字符的插件
+    link: https://github.com/xtaw/LiteLoaderQQNT-Daily-Card/tree/master
 ---
