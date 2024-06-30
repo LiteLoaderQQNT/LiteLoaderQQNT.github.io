@@ -195,4 +195,8 @@ features:
   - title: Daily Card
     details: 一个用于自动抽取每日幸运字符的插件
     link: https://github.com/xtaw/LiteLoaderQQNT-Daily-Card/tree/master
+    
+  - title: 仿星穹铁道短信UI
+    details: 仿照星穹铁道中的角色短信界面的UI.
+    link: https://github.com/SyrieYume/starrail_ui/tree/main
 ---
