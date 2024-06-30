@@ -181,7 +181,7 @@ features:
     link: https://github.com/ltxhhz/LL-plugin-list-viewer/tree/main
 
   - title: 插件检测更新API
-    details: 为LiteLoaderQQNT插件提供一个检测更新的API
+    details: 为LiteLoaderQQNT插件开发者提供一个插件检测、下载更新的API
     link: https://github.com/adproqwq/LiteLoaderQQNT-CheckUpdateModule/tree/main
     
   - title: GPT-Reply
