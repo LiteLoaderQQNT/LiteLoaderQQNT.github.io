@@ -199,4 +199,8 @@ features:
   - title: 仿星穹铁道短信UI
     details: 仿照星穹铁道中的角色短信界面的UI.
     link: https://github.com/SyrieYume/starrail_ui/tree/main
+    
+  - title: Protocio
+    details: 注册自定义协议，将链接交付给对应插件处理
+    link: https://github.com/PRO-2684/protocio/tree/main
 ---
