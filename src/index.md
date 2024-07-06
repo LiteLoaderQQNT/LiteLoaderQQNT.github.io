@@ -239,4 +239,8 @@ features:
   - title: HK主题
     details: HK主题
     link: https://github.com/huankong233/LiteLoaderQQNT-HK-Theme/tree/main
+
+  - title: QQScreenshotSwitch
+    details: 切换 QQ 新版/旧版截图
+    link: https://github.com/bakyrd/QQScreenshotSwitch/tree/master
 ---
