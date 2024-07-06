@@ -183,24 +183,52 @@ features:
   - title: 插件检测更新API
     details: 为LiteLoaderQQNT插件开发者提供一个插件检测、下载更新的API
     link: https://github.com/adproqwq/LiteLoaderQQNT-CheckUpdateModule/tree/main
-    
+
   - title: GPT-Reply
     details: 在 QQNT 直接使用ChatGPT进行回复
     link: https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply/tree/main
-    
+
   - title: QQ消息修改
     details: 聊天界面，右键点击文本消息，选择【编辑消息内容】编辑即可
     link: https://github.com/lianquke/LiteLoaderQQNT-MessageEdit/tree/main
-    
+
   - title: Daily Card
     details: 一个用于自动抽取每日幸运字符的插件
     link: https://github.com/xtaw/LiteLoaderQQNT-Daily-Card/tree/master
-    
+
   - title: 仿星穹铁道短信UI
     details: 仿照星穹铁道中的角色短信界面的UI.
     link: https://github.com/SyrieYume/starrail_ui/tree/main
-    
+
   - title: Protocio
     details: 注册自定义协议，将链接交付给对应插件处理
     link: https://github.com/PRO-2684/protocio/tree/main
+
+  - title: ESC 快捷键
+    details: 在 QQNT 中使用 esc 来返回上一级 (退出当前聊天)
+    link: https://github.com/zilewang7/LiteLoaderQQNT-Esc-Shortcut-Key/tree/master
+
+  - title: 消息聚合
+    details: LiteLoaderQQNT消息聚合插件
+    link: https://github.com/XiaWuSharve/LiteLoaderQQNT-MergeMessage/tree/main
+
+  - title: 移除小尾巴
+    details: LiteLoaderQQNT的去除小尾巴插件
+    link: https://github.com/brx86/LiteLoaderQQNT-Remove-Suffix/tree/main
+
+  - title: Theme Altruistic
+    details: 「Altruistic」，簡潔且靈動的 QQNT 主題。
+    link: https://github.com/kobe-koto/LiteLoaderQQNT-Theme-Altruistic/tree/main
+
+  - title: Emoji 修复
+    details: Patch QQ 的 Emoji 字体
+    link: https://github.com/MingxuanGame/LiteLoaderQQNT-emojifix/tree/main
+
+  - title: GKD网页审查工具 for QQNT
+    details: 用于在QQNT中快捷开始审查快照
+    link: https://github.com/adproqwq/LiteLoaderQQNT-GKDInspectForQQNT/tree/main
+
+  - title: HK主题
+    details: HK主题
+    link: https://github.com/huankong233/LiteLoaderQQNT-HK-Theme/tree/main
 ---
