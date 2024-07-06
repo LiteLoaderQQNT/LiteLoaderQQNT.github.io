@@ -232,10 +232,6 @@ features:
     details: Patch QQ 的 Emoji 字体
     link: https://github.com/MingxuanGame/LiteLoaderQQNT-emojifix/tree/main
 
-  - title: GKD网页审查工具 for QQNT
-    details: 用于在QQNT中快捷开始审查快照
-    link: https://github.com/adproqwq/LiteLoaderQQNT-GKDInspectForQQNT/tree/main
-
   - title: HK主题
     details: HK主题
     link: https://github.com/huankong233/LiteLoaderQQNT-HK-Theme/tree/main
