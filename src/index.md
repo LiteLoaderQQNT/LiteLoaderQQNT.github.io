@@ -239,4 +239,8 @@ features:
   - title: QQScreenshotSwitch
     details: 切换 QQ 新版/旧版截图
     link: https://github.com/bakyrd/QQScreenshotSwitch/tree/master
+
+  - title: 快捷回复
+    details: 添加快捷回复语，重复打字滚！
+    link: https://github.com/adproqwq/LietLoaderQQNT-QuickReply/tree/main
 ---
