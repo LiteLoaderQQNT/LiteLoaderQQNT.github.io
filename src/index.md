@@ -242,5 +242,5 @@ features:
 
   - title: 快捷回复
     details: 添加快捷回复语，重复打字滚！
-    link: https://github.com/adproqwq/LietLoaderQQNT-QuickReply/tree/main
+    link: https://github.com/adproqwq/LiteLoaderQQNT-QuickReply/tree/main
 ---
