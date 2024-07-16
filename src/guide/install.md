@@ -105,3 +105,15 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 ## 更新QQNT
 
 每次更新 QQNT 都需要重新根据上述教程重新修补
+
+
+
+## 卸载 
+
+其实非常简单，根据上述安装教程的操作将修改还原即可
+
+- 删除 `resources\app\app_launcher\index.js` 添加的内容
+- 删除 `LITELOADERQQNT_PROFILE` 环境变量以及指定的目录
+- 删除 `QQNT/resources/app/versions/此处为版本号/application` 目录
+- 删除 `LiteLoaderQQNT` 本体目录
+- 使用修补工具还需参照修补工具的教程
