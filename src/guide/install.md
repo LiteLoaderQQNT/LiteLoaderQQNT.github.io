@@ -96,9 +96,9 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 ## 存储目录
 
-支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` `config.json` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能
+支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能
 
-如果你想将本体与存储目录合并在一起（便携软件）需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` `config.json` 移动回本体根目录下
+如果你想将本体与存储目录合并在一起（便携软件）需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` 移动回本体根目录下
 
 
 
