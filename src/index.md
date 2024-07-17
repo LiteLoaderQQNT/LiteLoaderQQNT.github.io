@@ -243,4 +243,8 @@ features:
   - title: 快捷回复
     details: 添加快捷回复语，重复打字滚！
     link: https://github.com/adproqwq/LiteLoaderQQNT-QuickReply/tree/main
+
+  - title: 快速移除会话
+    details: 使用滚轮点击快速移除会话，就像在其他软件里的操作一样
+    link: https://github.com/jiang-taibai/LiteLoaderQQNT-Quickly-Remove-Conversations/tree/main
 ---
