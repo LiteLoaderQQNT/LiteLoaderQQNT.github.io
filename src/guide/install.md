@@ -32,11 +32,18 @@
   git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
   ```
 
+::: warning 警告
+将 LIteloaderQQNT 解压或 Clone 到的任意位置，尽量避免有空格或中文，以免出现不必要的各种问题
+
+比如`D:\Liteloader`
+:::
 
 
 ## 安装
 
-找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行``require(String.raw`此处为你 LiteLoaderQQNT 目录路径`);``
+找到 QQNT 安装目录，编辑 `.\resources\app\app_launcher\index.js` 文件，在最前端插入一行``require(String.raw`此处为你 LiteLoaderQQNT 目录路径`);``
+
+LiteloaderQQNT 目录路径位于上一章所解压或 Clone 的路径
 
 ``` javascript
 require(String.raw`C:\LiteloaderQQNT`); // 此处换成你 LiteLoaderQQNT 目录位置
