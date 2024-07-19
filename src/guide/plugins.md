@@ -10,6 +10,15 @@
 
 ### 手动安装
 
+::: warning 警告
+LiteloaderQQNT 插件的存放路径并不是位于你在安装 LiteloaderQQNT 时解压或 Clone 至的任意位置，那里没有`plugins`这一文件夹，也并不需要额外创建，因为那样是无效的
+
+具体要查看你的 LiteloaderQQNT 插件存放路径
+
+- 一般 LiteloaderQQNT 的插件存放路径一般都在`C:\Users\Rolling Fanball Sky\Documents\LiteloaderQQNT\plugins`中
+- 如不在，请打开QQ，点击`左下角三条杠`，再点击`设置`，接着点击左侧`LiteloaderQQNT`选项，在`目录`一栏中找到`数据目录位置`，点击右侧的`进入目录`，在弹出的文件资源管理器中找到`plugins`文件夹
+:::
+
 如果你有现成的插件，请先确保是与 LiteLoaderQQNT 兼容的，并且拥有对应依赖插件
 
 将插件目录移动到 `LiteLoaderQQNT/plugins` 文件夹内，如果插件是压缩包请先解压
