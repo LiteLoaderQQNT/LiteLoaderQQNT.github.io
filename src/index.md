@@ -247,4 +247,8 @@ features:
   - title: 快速移除会话
     details: 使用滚轮点击快速移除会话，就像在其他软件里的操作一样
     link: https://github.com/jiang-taibai/LiteLoaderQQNT-Quickly-Remove-Conversations/tree/main
+
+  - title: CanCanNeed
+    details: 担心窥屏和社死？快来试试这个吧！还能方便界面演示和截图，美观实用，混沌有趣。
+    link: https://github.com/MapleRecall/LiteLoaderQQNT-CCND/tree/main
 ---
