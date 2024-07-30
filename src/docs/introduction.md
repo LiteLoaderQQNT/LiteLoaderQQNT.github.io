@@ -21,7 +21,7 @@
 
 ## 调试代码
 
-由于 QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
+由于 QQNT 移除了 Chrome DevTools 与 Node.js 远程调试  
 为了查看输出，使用终端来启动 QQNT 并添加 `--enable-logging` 参数  
 渲染进程需安装额外的插件（Chii DevTools）来获取残缺版 DevTools
 

@@ -47,7 +47,7 @@ require('./launcher.node').load('external_index', module);
 请确保拥有 QQNT 安装目录的读写权限！如果不想给予 QQNT 安装目录读写权限
 
 - 按照下文 `存储位置` 一节进行设置
-- 将 `LiteLoaderQQNT/src/preload.js` 复制到 `QQNT/resources/app/versions/此处为版本号/application/preload.js`
+- 首次启动将显示教程，根据提示手动移动文件夹
 
 LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复制，也就是说在更新本体后需再进行一次这步骤
 :::
@@ -96,9 +96,9 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 ## 存储目录
 
-支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能
+支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能  
 
-如果你想将本体与存储目录合并在一起（便携软件）需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` 移动回本体根目录下
+如果你想将本体与存储目录合并在一起需将 `LITELOADERQQNT_PROFILE` 环境变量删除，将 `data` `plugins` 移动回本体根目录下
 
 
 
@@ -108,7 +108,12 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 
 
-## 卸载 
+## 卸载
+
+### 自动
+在设置界面的插件列表处，找到需要卸载的插件，点击右侧 `管理` 按钮即可看到删除选项
+
+### 手动
 
 其实非常简单，根据上述安装教程的操作将修改还原即可
 
