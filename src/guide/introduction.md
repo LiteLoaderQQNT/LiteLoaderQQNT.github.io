@@ -1,7 +1,7 @@
 # 介绍
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.1.x 编写
+此文档为 LiteLoaderQQNT 1.2.x 编写
 :::
 
 

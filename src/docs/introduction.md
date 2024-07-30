@@ -1,7 +1,7 @@
 # 开始你的第一个插件
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.1.x 编写
+此文档为 LiteLoaderQQNT 1.2.x 编写
 :::
 
 
@@ -21,12 +21,8 @@
 
 ## 调试代码
 
-::: tip 提示
-QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
-:::
-
-为了查看主进程输出，你需要使用终端（UTF-8 编码）来启动 QQNT  
-也可以在终端查看渲染进程输出，运行 QQNT 时添加 `--enable-logging`  
+由于 QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
+为了查看输出，使用终端来启动 QQNT 并添加 `--enable-logging` 参数  
 渲染进程需安装额外的插件（Chii DevTools）来获取残缺版 DevTools
 
 
@@ -37,17 +33,17 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 
 以下都需要用到 Git 工具，请先安装并配置
 
-- 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可（第三方）
-    ```shell
-    npm create liteloader-plugin
-    ```
 - 使用 Git 来快速创建模板，执行下面命令到插件目录即可（官方）
     ``` shell
     git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
     ```
-- 使用 Git 来快速创建模板，执行下面命令到插件目录即可（第三方）
+- 使用 Git 来快速创建模板，执行下面命令到插件目录即可（社区）
     ``` shell
     git clone https://github.com/MisaLiu/LiteLoaderQQNT-PluginTemplate-Vite.git --depth 1
+    ```
+- 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可（社区）
+    ```shell
+    npm create liteloader-plugin
     ```
 
 ### 手动创建
@@ -121,14 +117,29 @@ QQNT 移除了 Chrome DevTools 与 Node.js 远程调试
 exports.onBrowserWindowCreated = (window) => {
     // window 为 Electron 的 BrowserWindow 实例
 }
+
+// 用户登录时触发
+exports.onLogin = (uid) => {
+    // uid 为 QQNT 的 字符串 标识
+}
 ```
 
 #### 渲染进程
 
 ``` javascript
-// 打开设置界面触发
+// 打开设置界面时触发
 export const onSettingWindowCreated = (view) => {
     // view 为 Element 对象，修改将同步到插件设置界面
+}
+
+// Vue组件挂载时触发
+export const onVueComponentMount = (component) => {
+    // component 为 Vue Component 对象
+}
+
+// Vue组件卸载时触发
+export const onVueComponentUnmount = (component) => {
+    // component 为 Vue Component 对象
 }
 ```
 

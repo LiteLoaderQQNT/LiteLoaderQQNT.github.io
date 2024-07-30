@@ -1,7 +1,7 @@
 # LiteLoader API
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.1.x 编写
+此文档为 LiteLoaderQQNT 1.2.x 编写
 :::
 
 
@@ -17,27 +17,27 @@
 
 
 ``` javascript
-globalThis.LiteLoader = {
+LiteLoader: {
     path: {
         root    // 本体目录路径
-        profile // 存储目录路径（如果指定了 LITELOADERQQNT_PROFILE 环境变量）
+        profile // 存储目录路径（如果指定了 LITELOADERQQNT_PROFILE 环境变量，否则跟本体目录路径一样）
         data    // 数据目录路径
         plugins // 插件目录路径
-    },
+    }
     versions {
         qqnt        // QQNT 版本号
         liteloader  // LiteLoaderQQNT 版本号
         node        // Node.js 版本号
         chrome      // Chrome 版本号
         electron    // Electron 版本号
-    },
+    }
     os: {
         platform    // 系统平台名称
-    },
+    }
     package: {
         liteloader  // LiteLoaderQQNT package.json 文件内容
         qqnt        // QQNT package.json 文件内容
-    },
+    }
     plugins: {
         slug: {
             incompatible    // 插件是否兼容
@@ -60,6 +60,11 @@ globalThis.LiteLoader = {
         config: {
             set(slug, new_config)       // 设置配置文件
             get(slug, default_config)   // 获取配置文件
+        },
+        plugin: {
+            install(file_path, undone = false),
+            delete(slug, delete_data = false, undone = false),
+            disable(slug, undone = false)
         }
     }
 }

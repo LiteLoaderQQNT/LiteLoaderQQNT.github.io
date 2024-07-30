@@ -1,7 +1,7 @@
 # Web Components
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.1.x 编写
+此文档为 LiteLoaderQQNT 1.2.x 编写
 :::
 
 
@@ -25,7 +25,9 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 | setting-switch  |            |            |           |                |
 | setting-button  |            |            |     √     |                |
 |  setting-text   |            |            |     √     |                |
+|  setting-link   |            |     √      |           |                |
 | setting-divider |            |            |           |       √        |
+|  setting-modal  |     √      |            |           |                |
 
 |                 | is-collapsible | is-selected | is-active | is-disabled |
 |:---------------:|:--------------:|:-----------:|:---------:|:-----------:|
@@ -38,7 +40,9 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 | setting-switch  |                |             |     √     |      √      |
 | setting-button  |                |             |           |      √      |
 |  setting-text   |                |             |           |      √      |
+|  setting-link   |                |             |           |      √      |
 | setting-divider |                |             |           |      √      |
+|  setting-modal  |                |             |     √     |      √      |
 
 
 ## 用法
@@ -235,6 +239,16 @@ settingSelectElement.addEventListener("selected", (event) => {
 </setting-section>
 ```
 
+### setting-link
+
+链接
+
+- `data-value` - 链接
+
+``` html
+<setting-link data-value="https://liteloaderqqnt.github.io/">进入官网</setting-link>
+```
+
 ### setting-divider
 
 ::: tip 提示
@@ -262,4 +276,16 @@ settingSelectElement.addEventListener("selected", (event) => {
         </setting-list>
     </setting-panel>
 </setting-section>
+```
+
+### setting-modal
+
+模态窗口
+
+- `data-title` - 标题
+- `is-active` - 显示
+
+``` html
+<setting-modal data-tite="LiteLoaderQQNT">...</setting-modal>
+<setting-modal data-tite="LiteLoaderQQNT" is-active>...</setting-modal>
 ```

@@ -57,8 +57,8 @@ export default defineConfig({
             provider: "local",
         },
         footer: {
-            message: "赞助：<a href='https://afdian.com/a/mojinran'>爱发电</a></br>基于 <a href='https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/blob/main/LICENSE'>MIT</a> 许可发布",
-            copyright: "版权所有 © 2024 <a href='https://github.com/LiteLoaderQQNT'>LiteLoaderQQNT</a>"
+            message: "赞助：<a href='https://afdian.com/a/mojinran'>爱发电</a>",
+            copyright: "基于 <a href='https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/blob/main/LICENSE'>MIT</a> 许可发布"
         },
         externalLinkIcon: true
     }
