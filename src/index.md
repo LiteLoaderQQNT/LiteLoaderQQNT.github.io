@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "LiteLoaderQQNT"
   text: "QQNT 插件加载器"
-  tagline: 轻量 · 简洁 · 开源
+  tagline: 轻量 · 简洁 · 开源 · 福瑞
   actions:
     - theme: brand
       text: 开始使用
@@ -251,4 +251,8 @@ features:
   - title: CanCanNeed
     details: 担心窥屏和社死？快来试试这个吧！还能方便界面演示和截图，美观实用，混沌有趣。
     link: https://github.com/MapleRecall/LiteLoaderQQNT-CCND/tree/main
+
+  - title: 明日方舟辅助插件
+    details: 一些有用的小功能
+    link: https://github.com/Ark-Aak/Arknights_Plugin/tree/main
 ---
