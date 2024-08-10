@@ -255,4 +255,8 @@ features:
   - title: 明日方舟辅助插件
     details: 一些有用的小功能
     link: https://github.com/Ark-Aak/Arknights_Plugin/tree/main
+
+  - title: Kemisago
+    details: 由 Snoopy1866 开发的text-elementalizer的LiteLoaderQQNT移植版插件
+    link: https://github.com/adproqwq/LiteLoaderQQNT-Kemisago/tree/main
 ---
