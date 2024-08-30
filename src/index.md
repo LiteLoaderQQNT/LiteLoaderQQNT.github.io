@@ -267,4 +267,8 @@ features:
   - title: NapCatQQ
     details: 高性能的 OneBot 11 协议实现
     link: https://github.com/NapNeko/NapCatQQ/tree/main
+
+  - title: QQNoFlash
+    details: 别用任务栏图标烦我好吗
+    link: https://github.com/NapNeko/NapCatQQ/tree/main
 ---
