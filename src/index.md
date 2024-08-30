@@ -259,4 +259,12 @@ features:
   - title: Kemisago
     details: 由 Snoopy1866 开发的text-elementalizer的LiteLoaderQQNT移植版插件
     link: https://github.com/adproqwq/LiteLoaderQQNT-Kemisago/tree/main
+
+  - title: Border Card UI Theme
+    details: Stapxs QQ Lite 2.0 Electron 版 LiteLoaderQQNT 迁移主题。
+    link: https://github.com/Stapxs/Stapxs-QQ-Lite-Theme/tree/main
+
+  - title: NapCatQQ
+    details: 高性能的 OneBot 11 协议实现
+    link: https://github.com/NapNeko/NapCatQQ/tree/main
 ---
