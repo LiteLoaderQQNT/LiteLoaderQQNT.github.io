@@ -270,5 +270,5 @@ features:
 
   - title: QQNoFlash
     details: 别用任务栏图标烦我好吗
-    link: https://github.com/NapNeko/NapCatQQ/tree/main
+    link: https://github.com/bakyrd/QQNoFlash/tree/master
 ---
