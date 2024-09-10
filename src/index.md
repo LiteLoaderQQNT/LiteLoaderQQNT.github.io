@@ -271,4 +271,8 @@ features:
   - title: QQNoFlash
     details: 别用任务栏图标烦我好吗
     link: https://github.com/bakyrd/QQNoFlash/tree/master
+
+  - title: Encrypt Chat
+    details: 一个方便好用加密通话插件(*^_^*)
+    link: https://github.com/WJZ-P/LiteLoaderQQNT-Encrypt-Chat/tree/main
 ---
