@@ -11,6 +11,7 @@
 一些社区开发的安装工具来帮助你快速安装，或跳过此条目来阅读官方安装教程
 
 - https://github.com/Mzdyl/LiteLoaderQQNT_Install/
+- https://github.com/huiyadanli/RevokeMsgPatcher
 
 
 
