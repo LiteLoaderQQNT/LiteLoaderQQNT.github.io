@@ -12,6 +12,7 @@
 
 - https://github.com/Mzdyl/LiteLoaderQQNT_Install/
 - https://github.com/huiyadanli/RevokeMsgPatcher
+- https://github.com/NapNeko/NapCat-Windows-Boot
 
 
 
