@@ -137,7 +137,7 @@ features:
     link: https://github.com/MisaLiu/LiteLoaderQQNT-Pangu/tree/master
 
   - title: LLOneBot
-    details: 使你的NTQQ支持OneBot11协议进行QQ机器人开发, 不支持商店在线更新
+    details: 实现 OneBot 11 协议，用于 QQ 机器人开发
     link: https://github.com/LLOneBot/LLOneBot/tree/main
 
   - title: OneBotApi-JS
