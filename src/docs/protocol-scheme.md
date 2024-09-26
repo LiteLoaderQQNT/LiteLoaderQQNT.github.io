@@ -1,7 +1,7 @@
 # 自定义协议方案
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.x 编写
+此文档为 LiteLoaderQQNT 1.2.2 编写
 :::
 
 

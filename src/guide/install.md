@@ -1,102 +1,65 @@
 # 安装
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.x 编写
+此文档为 LiteLoaderQQNT 1.2.2 编写
 :::
 
 
 
-## 工具
+## 使用社区奇妙工具
 
 一些社区开发的安装工具来帮助你快速安装，或跳过此条目来阅读官方安装教程
 
-- https://github.com/Mzdyl/LiteLoaderQQNT_Install/
-- https://github.com/huiyadanli/RevokeMsgPatcher
-- https://github.com/NapNeko/NapCat-Windows-Boot
+- https://github.com/Mzdyl/LiteLoaderQQNT_Install  
+    使用 Python 编写的安装脚本，支持 Windows Linux MacOS
+
+- https://github.com/huiyadanli/RevokeMsgPatcher  
+    微信/QQ/TIM防撤回补丁，对 QQNT 安装 LiteLoaderQQNT
+
+- https://github.com/NapNeko/NapCat-Windows-Boot  
+    来自 NapCat 项目的启动器，可以一键启动，支持 Windows
 
 
 
-## 下载
+## 安装前的准备工作
 
 你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
-- **通过 Release**
+- **Release**（推荐，正式发布版本）  
+    前往 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 仓库，在 Release 的 Latest 下载 `LiteLoaderQQNT.zip` 文件，将压缩包内 `LiteLoaderQQNT` 目录解压到任意位置
 
-  前往 LiteLoaderQQNT 仓库，在 Release 中 Latest 内，下载 `LiteLoaderQQNT.zip` 文件，将压缩包内 LiteLoaderQQNT 目录解压到任意位置
+- **Clone**（不推荐，开发中版本）  
+    使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
+    ``` shell
+    git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
+    ```
 
-  LiteLoaderQQNT：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT
+对于 Windows 系统用户，还需要去除 QQNT 文件校验，以下有两种方式
 
-- **通过 Clone**
+- [**DLLHijackMethod**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod)（推荐，简单好用）  
+    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
 
-  使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
-
-  ``` shell
-  git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
-  ```
-
-
-
-## 安装
-
-找到 QQNT 安装目录，编辑 `resources\app\app_launcher\index.js` 文件，在最前端插入一行``require(String.raw`此处为你 LiteLoaderQQNT 目录路径`);``
-
-``` javascript
-require(String.raw`C:\LiteloaderQQNT`); // 此处换成你 LiteLoaderQQNT 目录位置
-require('./launcher.node').load('external_index', module);
-```
-
-::: warning 警告
-请确保拥有 QQNT 安装目录的读写权限！如果不想给予 QQNT 安装目录读写权限
-
-- 按照下文 `存储位置` 一节进行设置
-- 首次启动将显示教程，根据提示手动移动文件夹
-
-LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复制，也就是说在更新本体后需再进行一次这步骤
-:::
+- [**QQNTFileVerifyPatch**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch)（不推荐，麻烦可能被检测）  
+    在 Release 下载 exe 文件，运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 或 QQNT.dll 开始修补，每次更新都需要重新修补
 
 
 
-## 修补
+## 修改文件手动安装
 
-::: warning 警告
-此条目仅需 Windows 用户查看，其他系统无需继续阅读此条目
-:::
+先找到 app 文件夹的路径，修改里面的两个文件
 
-由于 Windows 系统平台 QQNT 被添加文件完整性验证，你需要额外步骤来解除限制,有下列四种方式：
+- 查看 QQNT 根目录，是否存在 `versions` 文件夹
+    - 是，则路径为 `QQNT\versions\版本号\resources\app`
+    - 否，则路径为 `QQNT\resources\app`
 
-- **DLLHijackMethod**
+在 app 目录中，创建一个文件，修改一个文件
 
-    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可  
-    https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod
-
-- **QQNTFileVerifyPatch**
-
-    在 Release 下载 exe 文件，运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 开始修补，每次更新都需要重新修补  
-    https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch
-
-- **PatcherNFixer**
-
-    在 Release 下载 zip 文件，解压后运行 exe 将弹出图形化界面，根据软件界面提示选择相应选项与修补方式，每次更新都需要重新修补  
-    https://github.com/xh321/LiteLoaderQQNT-PatcherNFixer
-
-- **V8Killer**
-
-    此方式目前过于麻烦，且需要自行寻找对应的 RVA 偏移量，只说明此方式的可行性，需自行探索使用方式  
-    https://github.com/ShellWen/v8_killer
-
-
-## 检查
-
-按照上述教程完成安装后，有两种方法检查 LiteLoaderQQNT 是否成功安装
-
-- 运行 QQNT 并打开设置，查看左侧列表是否出现 `LiteLoaderQQNT` 选项
-- 使用终端运行 QQNT 查看是否有 LiteLoaderQQNT 相关内容输出显示
-
-如果有显示，即安装成功，玩的开心！
+- 创建 `app/app_launcher/*.js` 文件，其中 * 为文件名可随意设置，写入 ``require(String.raw`*`)`` 其中 * 为 LiteLoaderQQNT 的路径
+- 修改 `app/package.json` 文件，将 `main` 后面的路径改为 `./app_launcher/*.js` 其中 * 为你刚才创建的文件名
 
 
 
-## 存储目录
+## 更改插件数据目录
 
 支持设置 `LITELOADERQQNT_PROFILE` 环境变量指定 `data` `plugins` 存储位置，即可不在本体目录进行读写操作，比如 MacOS 与 Linux 平台 QQNT，以及类似于 flatpak 打包的 QQNT，让其实现成为可能  
 
@@ -104,23 +67,11 @@ LiteLoaderQQNT 会在第二步骤的文件不一致或没有文件时自动复�
 
 
 
-## 更新QQNT
+## 检查是否安装成功
 
-每次更新 QQNT 都需要重新根据上述教程重新修补
+按照上述教程完成安装后，有两种方法检查 LiteLoaderQQNT 是否成功安装
 
+- 运行 QQNT 并打开设置，查看左侧列表是否出现 `LiteLoaderQQNT` 选项
+- 使用终端运行 QQNT 查看是否有 LiteLoaderQQNT 相关内容输出显示
 
-
-## 卸载
-
-### 自动
-在设置界面的插件列表处，找到需要卸载的插件，点击右侧 `管理` 按钮即可看到删除选项
-
-### 手动
-
-其实非常简单，根据上述安装教程的操作将修改还原即可
-
-- 删除 `resources\app\app_launcher\index.js` 添加的内容
-- 删除 `LITELOADERQQNT_PROFILE` 环境变量以及指定的目录
-- 删除 `QQNT/resources/app/versions/此处为版本号/application` 目录
-- 删除 `LiteLoaderQQNT` 本体目录
-- 使用修补工具还需参照修补工具的教程
+如果有显示，即安装成功，玩的开心！
