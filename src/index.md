@@ -275,4 +275,8 @@ features:
   - title: Encrypt Chat
     details: 一个方便好用加密通话插件(*^_^*)
     link: https://github.com/WJZ-P/LiteLoaderQQNT-Encrypt-Chat/tree/main
+
+  - title: 星之杖
+    details: 你相信魔法吗
+    link: https://github.com/nyaruhodoo/LiteLoader-StarWand/tree/master
 ---
