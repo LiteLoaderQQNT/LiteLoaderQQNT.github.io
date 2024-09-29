@@ -279,4 +279,8 @@ features:
   - title: 星之杖
     details: 你相信魔法吗
     link: https://github.com/nyaruhodoo/LiteLoader-StarWand/tree/master
+
+  - title: 自用小锤
+    details: 用来敲碎左边那人的星之杖
+    link: https://github.com/bakyrd/LiteLoader-LittleHammer/tree/master
 ---
