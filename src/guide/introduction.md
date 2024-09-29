@@ -22,13 +22,13 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 ## 外部链接
 
 - **Telegram**  
-    群聊：https://t.me/LiteLoaderQQNT  
-    频道：https://t.me/LiteLoaderQQNT_Channel
+群聊：https://t.me/LiteLoaderQQNT  
+频道：https://t.me/LiteLoaderQQNT_Channel
 
 - **LiteLoaderQQNT**  
-    框架本体：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT  
-    插件模板：https://github.com/LiteLoaderQQNT/Plugin-Template  
-    插件列表：https://github.com/LiteLoaderQQNT/Plugin-List
+框架本体：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT  
+插件模板：https://github.com/LiteLoaderQQNT/Plugin-Template  
+插件列表：https://github.com/LiteLoaderQQNT/Plugin-List
 
 
 

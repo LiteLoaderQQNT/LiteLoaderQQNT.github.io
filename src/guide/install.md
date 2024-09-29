@@ -8,16 +8,21 @@
 
 ## 使用社区奇妙工具
 
-一些社区开发的安装工具来帮助你快速安装，或跳过此条目来阅读官方安装教程
+一些社区开发的安装工具来帮助你快速安装
 
 - https://github.com/Mzdyl/LiteLoaderQQNT_Install  
-    使用 Python 编写的安装脚本，支持 Windows Linux MacOS
+使用 Python 编写的安装脚本，支持 Windows Linux MacOS
 
 - https://github.com/huiyadanli/RevokeMsgPatcher  
-    微信/QQ/TIM防撤回补丁，对 QQNT 安装 LiteLoaderQQNT
+微信/QQ/TIM防撤回补丁，对 QQNT 安装 LiteLoaderQQNT
 
 - https://github.com/NapNeko/NapCat-Windows-Boot  
-    来自 NapCat 项目的启动器，可以一键启动，支持 Windows
+来自 NapCat 项目的启动器，可以一键启动，支持 Windows
+
+使用 Arch Linux 系统可以通过 AUR 安装
+
+- https://aur.archlinux.org/packages/liteloader-qqnt-bin
+- https://aur.archlinux.org/packages/liteloader-qqnt-git
 
 
 
@@ -26,21 +31,21 @@
 你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
 - **Release**（推荐，正式发布版本）  
-    前往 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 仓库，在 Release 的 Latest 下载 `LiteLoaderQQNT.zip` 文件解压到任意位置
+前往 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 仓库，在 Release 的 Latest 下载 `LiteLoaderQQNT.zip` 文件解压到任意位置
 
 - **Clone**（不推荐，开发中版本）  
-    使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
-    ``` shell
-    git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
-    ```
+使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
+``` shell
+git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
+```
 
 对于 Windows 系统用户，还需要去除 QQNT 文件校验，以下有两种方式
 
 - [**DLLHijackMethod**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod)（推荐，简单好用）  
-    在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
+在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
 
 - [**QQNTFileVerifyPatch**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch)（不推荐，麻烦可能被检测）  
-    在 Release 下载 exe 文件，运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 或 QQNT.dll 开始修补，每次更新都需要重新修补
+在 Release 下载 exe 文件，运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 或 QQNT.dll 开始修补，每次更新都需要重新修补
 
 
 
