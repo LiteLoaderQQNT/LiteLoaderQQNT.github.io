@@ -283,4 +283,24 @@ features:
   - title: 自用小锤
     details: 用来敲碎左边那人的星之杖
     link: https://github.com/bakyrd/LiteLoader-LittleHammer/tree/master
+
+  - title: Chronocat
+    details: 模块化的 Satori 框架
+    link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat/tree/master
+
+  - title: Chronocat Engine: Chronocat-Api
+    details: Chronocat API 引擎
+    link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Chronocat-Api/tree/master
+
+  - title: Chronocat Engine: Chronocat-Event
+    details: Chronocat 事件引擎
+    link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Chronocat-Event/tree/master
+
+  - title: Chronocat Engine: Media
+    details: Chronocat 媒体引擎
+    link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Crychiccat/tree/master
+
+  - title: Chronocat Engine: Crychiccat
+    details: Crychiccat 引擎
+    link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Crychiccat/tree/master
 ---
