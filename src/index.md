@@ -288,19 +288,19 @@ features:
     details: 模块化的 Satori 框架
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat/tree/master
 
-  - title: Chronocat Engine: Chronocat-Api
+  - title: "Chronocat Engine: Chronocat-Api"
     details: Chronocat API 引擎
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Chronocat-Api/tree/master
 
-  - title: Chronocat Engine: Chronocat-Event
+  - title: "Chronocat Engine: Chronocat-Event"
     details: Chronocat 事件引擎
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Chronocat-Event/tree/master
 
-  - title: Chronocat Engine: Media
+  - title: "Chronocat Engine: Media"
     details: Chronocat 媒体引擎
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Crychiccat/tree/master
 
-  - title: Chronocat Engine: Crychiccat
+  - title: "Chronocat Engine: Crychiccat"
     details: Crychiccat 引擎
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Crychiccat/tree/master
 ---
