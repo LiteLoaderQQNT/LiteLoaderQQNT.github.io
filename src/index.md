@@ -303,4 +303,8 @@ features:
   - title: "Chronocat Engine: Crychiccat"
     details: Crychiccat 引擎
     link: https://github.com/chrononeko/LiteLoaderQQNT-Plugin-Chronocat-Engine-Crychiccat/tree/master
+
+  - title: Echo Message
+    details: "我要+1！"实现接近原生手机QQ的聊天+1功能(๑>◡<๑)
+    link: https://github.com/WJZ-P/LiteLoaderQQNT-Echo-Message/tree/main
 ---
