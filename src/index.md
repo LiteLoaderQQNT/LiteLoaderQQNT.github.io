@@ -307,4 +307,8 @@ features:
   - title: Echo Message
     details: \"我要+1！\"实现接近原生手机QQ的聊天+1功能(๑>◡<๑)
     link: https://github.com/WJZ-P/LiteLoaderQQNT-Echo-Message/tree/main
+
+  - title: 快速切换聊天窗口
+    details: 通过快捷键 [Alt + 数字键] / [Alt + ↑] / [Alt + ↓] 切换聊天窗口, [Alt + Backspace] 退出群助手.
+    link: https://github.com/AliubYiero/LiteLoaderQQNT_HotkeyChangeWindow/tree/main
 ---
