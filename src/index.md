@@ -315,4 +315,20 @@ features:
   - title: 修改图片概要
     details: 修改图片/表情包外显消息(未进入群聊时在外部看见的简略文本)（＾∀＾）
     link: https://github.com/WJZ-P/LiteLoaderQQNT-Change-Summary/tree/main
+
+  - title: 自动抢红包
+    details: 基于IPC通信的自动抢红包插件ヽ(＾Д＾)ﾉ
+    link: https://github.com/WJZ-P/LiteLoaderQQNT-Encrypt-Chat/tree/main
+
+  - title: QQNTnoTips
+    details: QQNT别用右下角游戏推送推送烦我好吗
+    link: https://github.com/XiaozhiSans/QQNTnoTips/tree/main
+
+  - title: auto_format_message
+    details: 格式化消息
+    link: https://github.com/Bdbmzwsc/LiteLoaderQQNT-Auto-Format-Message/tree/main
+
+  - title: 边栏精简
+    details: 精简QQNT的边栏
+    link: https://github.com/CarlGao4/LL-Sidebar-Simplify/tree/main
 ---
