@@ -310,7 +310,7 @@ features:
 
   - title: 快速切换聊天窗口
     details: 通过快捷键 [Alt + 数字键] / [Alt + ↑] / [Alt + ↓] 切换聊天窗口, [Alt + Backspace] 退出群助手.
-    link: https://github.com/AliubYiero/LiteLoaderQQNT_HotkeyChangeWindow/tree/main
+    link: https://github.com/AliubYiero/LiteLoaderQQNT_HotkeyChangeWindow/tree/master
 
   - title: 修改图片概要
     details: 修改图片/表情包外显消息(未进入群聊时在外部看见的简略文本)（＾∀＾）
