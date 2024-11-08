@@ -331,4 +331,12 @@ features:
   - title: 边栏精简
     details: 精简QQNT的边栏
     link: https://github.com/CarlGao4/LL-Sidebar-Simplify/tree/main
+
+  - title: Socket.io support In QQNT
+    details: 在 LiteLoaderQQNT 中使用 socket.io (Client)
+    link: https://github.com/QWXL/LiteLoaderQQNT-socket.io-support/tree/main
+
+  - title: MessageBlocker
+    details: 消息屏蔽插件
+    link: https://github.com/elegantloneliness/qqMessageBlocker/tree/main
 ---
