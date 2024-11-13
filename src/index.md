@@ -339,4 +339,8 @@ features:
   - title: MessageBlocker
     details: 消息屏蔽插件
     link: https://github.com/elegantloneliness/qqMessageBlocker/tree/main
+    
+  - title: 消息贴表情
+    details: 自动给消息贴上emoji！(๑˃ᴗ˂)ﻭ
+    link: https://github.com/WJZ-P/LiteLoaderQQNT-Stick-Emoji/tree/main
 ---
