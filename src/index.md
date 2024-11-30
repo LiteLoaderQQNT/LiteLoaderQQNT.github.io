@@ -339,8 +339,20 @@ features:
   - title: MessageBlocker
     details: 消息屏蔽插件
     link: https://github.com/elegantloneliness/qqMessageBlocker/tree/main
-    
+
   - title: 消息贴表情
     details: 自动给消息贴上emoji！(๑˃ᴗ˂)ﻭ
     link: https://github.com/WJZ-P/LiteLoaderQQNT-Stick-Emoji/tree/main
+
+  - title: PGP 加密
+    details: 在 QQ 中使用 PGP 进行端到端加密，支持半自动加密和自动解密
+    link: https://github.com/TransparentLC/LiteLoaderQQNT-PGP-Encryption/tree/master
+
+  - title: 消息转发助手
+    details: 根据用户设定的规则自动转发QQ消息至指定的好友、群聊或群内成员，支持多种匹配模式和消息预处理选项。
+    link: https://github.com/WongJingGitt/LiteLoaderQQNT-AutoForward/tree/master
+
+  - title: 移除自定义气泡
+    details: 移除自定义气泡，并替换为默认极简主题样式
+    link: https://github.com/pasical/Remove-Custom-Bubbles/tree/main
 ---
