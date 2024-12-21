@@ -318,7 +318,7 @@ features:
 
   - title: 自动抢红包
     details: 基于IPC通信的自动抢红包插件ヽ(＾Д＾)ﾉ
-    link: https://github.com/WJZ-P/LiteLoaderQQNT-Encrypt-Chat/tree/main
+    link: https://github.com/WJZ-P/LiteLoaderQQNT-Grab-RedBag/tree/main
 
   - title: QQNTnoTips
     details: QQNT别用右下角游戏推送推送烦我好吗
