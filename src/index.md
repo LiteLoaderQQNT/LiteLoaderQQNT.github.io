@@ -338,7 +338,11 @@ features:
 
   - title: MessageBlocker
     details: 消息屏蔽插件。目前QQ的唯一一个能处理消息内容的插件。支持按关键字屏蔽文字，emoji表情，图片表情包，群机器人，超级表情。觉得好用github给我点个star吧！
-    link: https://github.com/elegantlone/qqMessageBlocker/tree/main
+    link: https://github.com/elegantland/qqMessageBlocker/tree/main
+
+  - title: MessageSave
+    details: 一个QQ消息保存插件,目前QQ的最简单的保存消息内容的插件。觉得好用github给我点个star吧！
+    link: https://github.com/elegantland/qqMessageSave/tree/main
 
   - title: 消息贴表情
     details: 自动给消息贴上emoji！(๑˃ᴗ˂)ﻭ
