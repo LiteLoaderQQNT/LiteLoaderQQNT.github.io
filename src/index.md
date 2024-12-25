@@ -337,8 +337,8 @@ features:
     link: https://github.com/QWXL/LiteLoaderQQNT-socket.io-support/tree/main
 
   - title: MessageBlocker
-    details: 消息屏蔽插件
-    link: https://github.com/elegantloneliness/qqMessageBlocker/tree/main
+    details: 消息屏蔽插件。目前QQ的唯一一个能处理消息内容的插件。支持按关键字屏蔽文字，emoji表情，图片表情包，群机器人，超级表情。觉得好用github给我点个star吧！
+    link: https://github.com/elegantlone/qqMessageBlocker/tree/main
 
   - title: 消息贴表情
     details: 自动给消息贴上emoji！(๑˃ᴗ˂)ﻭ
