@@ -332,7 +332,7 @@ features:
     details: 精简QQNT的边栏
     link: https://github.com/CarlGao4/LL-Sidebar-Simplify/tree/main
 
-  - title: Socket.io support In QQNT
+  - title: Socket.io In QQNT
     details: 在 LiteLoaderQQNT 中使用 socket.io (Client)
     link: https://github.com/QWXL/LiteLoaderQQNT-socket.io-support/tree/main
 
