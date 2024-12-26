@@ -30,10 +30,10 @@
 
 你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
-- **Release**（推荐，正式发布版本）  
+- **Release**  
 前往 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 仓库，在 Release 的 Latest 下载 `LiteLoaderQQNT.zip` 文件解压到任意位置
 
-- **Clone**（不推荐，开发中版本）  
+- **Clone**  
 使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
 ``` shell
 git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
@@ -41,10 +41,10 @@ git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
 
 对于 Windows 系统用户，还需要去除 QQNT 文件校验，以下有两种方式
 
-- [**DLLHijackMethod**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod)（推荐，简单好用）  
+- [**DLLHijackMethod**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch/tree/DLLHijackMethod)  
 在 Release 下载 dll 文件，重命名为 dbghelp.dll 放入 QQ.exe 同级目录下即可
 
-- [**QQNTFileVerifyPatch**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch)（不推荐，麻烦可能被检测）  
+- [**QQNTFileVerifyPatch**](https://github.com/LiteLoaderQQNT/QQNTFileVerifyPatch)  
 在 Release 下载 exe 文件，运行将弹出文件选择框，进入 QQNT 安装目录选择 QQ.exe 或 QQNT.dll 开始修补，每次更新都需要重新修补
 
 
