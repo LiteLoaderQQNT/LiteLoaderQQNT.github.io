@@ -5,7 +5,7 @@
 :::
 
 ::: warning 警告
-目前新版 QQNT 在 Windows 上会检测 LiteLoaderQQNT 所使用的修改方式（而非检测 LiteLoaderQQNT 本体），从而主动下线。（从何版本开始暂不明晰）
+目前新版 QQNT 在 Windows 上会检测 LiteLoaderQQNT 所使用的修改方式，而非检测 LiteLoaderQQNT 本体，从而主动下线。（从何版本开始暂不明晰）
 
 需要注意的是：
 
@@ -14,9 +14,9 @@
 
 如果想要缓解被下线的症状：
 
-- 请撤销你的修补行为（如 添加的 dbghelp.dll）。或
-- 降级（尚不明晰需要降级到何版本或热更新是否同样会波及）。或
-- 停止使用 QQNT 或收购腾讯（或收购腾讯的 QQ 有关部门）。
+- 请撤销你的修补行为（如 添加的 dbghelp.dll）。
+- 降级（尚不明晰需要降级到何版本或热更新是否同样会波及）。
+- ~~停止使用 QQNT 或收购腾讯（或收购腾讯的 QQ 有关部门）。~~
 :::
 
 ## 这是什么
@@ -43,7 +43,7 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 
 ## 开源协议
 
-```License
+```txt
 MIT License
 
 Copyright (c) 2023 LiteLoaderQQNT
