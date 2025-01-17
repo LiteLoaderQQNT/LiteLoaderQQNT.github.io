@@ -8,16 +8,16 @@
 目前新版 QQNT 在 Windows 上会检测 LiteLoaderQQNT 所使用的修改方式（而非检测 LiteLoaderQQNT 本体），从而主动下线。（从何版本开始暂不明晰）
 
 需要注意的是：
- - 仅仅是关闭几个插件，简单的卸载 LiteLoaderQQNT 本体不会影响相关修改被检测到。
- - 目前没有直接的证据可证明使用 LiteLoaderQQNT 会导致账号会被冻结/封锁，但已有相关报告出现，还请谨慎行事。
+
+- 仅仅是关闭几个插件，简单的卸载 LiteLoaderQQNT 本体不会影响相关修改被检测到。
+- 目前没有直接的证据可证明使用 LiteLoaderQQNT 会导致账号会被冻结/封锁，但已有相关报告出现，还请谨慎行事。
 
 如果想要缓解被下线的症状：
- - 请撤销你的修补行为（如 添加的 dbghelp.dll）。或
- - 降级（尚不明晰需要降级到何版本或热更新是否同样会波及）。或
- - 停止使用 QQNT 或收购腾讯（或收购腾讯的 QQ 有关部门）。
+
+- 请撤销你的修补行为（如 添加的 dbghelp.dll）。或
+- 降级（尚不明晰需要降级到何版本或热更新是否同样会波及）。或
+- 停止使用 QQNT 或收购腾讯（或收购腾讯的 QQ 有关部门）。
 :::
-
-
 
 ## 这是什么
 
@@ -30,24 +30,20 @@ LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称�
 个人兴趣而制作，开发目的在于学习和探索，一切开发皆在学习，请勿用于非法用途  
 因使用本项目产生的一切问题与后果由使用者自行承担，项目开发者不承担任何责任
 
-
-
 ## 外部链接
 
 - **Telegram**  
-群聊：https://t.me/LiteLoaderQQNT  
-频道：https://t.me/LiteLoaderQQNT_Channel
+群聊：<https://t.me/LiteLoaderQQNT>  
+频道：<https://t.me/LiteLoaderQQNT_Channel>
 
 - **LiteLoaderQQNT**  
-框架本体：https://github.com/LiteLoaderQQNT/LiteLoaderQQNT  
-插件模板：https://github.com/LiteLoaderQQNT/Plugin-Template  
-插件列表：https://github.com/LiteLoaderQQNT/Plugin-List
-
-
+框架本体：<https://github.com/LiteLoaderQQNT/LiteLoaderQQNT>  
+插件模板：<https://github.com/LiteLoaderQQNT/Plugin-Template>  
+插件列表：<https://github.com/LiteLoaderQQNT/Plugin-List>
 
 ## 开源协议
 
-```
+```License
 MIT License
 
 Copyright (c) 2023 LiteLoaderQQNT

@@ -4,8 +4,6 @@
 此文档为 LiteLoaderQQNT 1.2.2 编写
 :::
 
-
-
 ## 准备工作
 
 - 所需知识
@@ -17,15 +15,11 @@
   - LiteLoaderQQNT
   - 代码编辑器
 
-
-
 ## 调试代码
 
 由于 QQNT 移除了 Chrome DevTools 与 Node.js 远程调试  
 为了查看输出，使用终端来启动 QQNT 并添加 `--enable-logging` 参数  
 渲染进程需安装额外的插件（Chii DevTools）来获取残缺版 DevTools
-
-
 
 ## 编写插件
 
@@ -34,14 +28,19 @@
 以下都需要用到 Git 工具，请先安装并配置
 
 - 使用 Git 来快速创建模板，执行下面命令到插件目录即可（官方）
+
     ``` shell
     git clone https://github.com/LiteLoaderQQNT/Plugin-Template.git --depth 1
     ```
+
 - 使用 Git 来快速创建模板，执行下面命令到插件目录即可（社区）
+
     ``` shell
     git clone https://github.com/MisaLiu/LiteLoaderQQNT-PluginTemplate-Vite.git --depth 1
     ```
+
 - 使用 npm 来快速创建模板，执行下面命令并根据提示进行即可（社区）
+
     ```shell
     npm create liteloader-plugin
     ```
@@ -153,8 +152,6 @@ const { contextBridge, ipcRenderer } = require("electron");
 contextBridge.exposeInMainWorld("plugin_template", {});
 ```
 
-
-
 ## 上传插件
 
 如果你编写完成一个插件，想要上传到插件列表中提供给插件市场读取，请根据以下步骤进行：
@@ -163,4 +160,4 @@ contextBridge.exposeInMainWorld("plugin_template", {});
 2. 编辑 manifest.json 添加 repository 字段，确保 manifest.json 在最顶层，插件市场会读取仓库内此文件
 3. 插件列表仓库 提交 Issues 或 Pull requests，仿造 plugins.json 内格式，将你的插件追加到文件末尾
 
-插件列表：https://github.com/LiteLoaderQQNT/Plugin-List
+插件列表：<https://github.com/LiteLoaderQQNT/Plugin-List>

@@ -4,8 +4,6 @@
 此文档为 LiteLoaderQQNT 1.2.2 编写
 :::
 
-
-
 ## 介绍
 
 LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件，使你能够简单且快速的构建 QQNT 原生样式的插件配置界面
@@ -43,7 +41,6 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 |  setting-link   |                |             |           |      √      |
 | setting-divider |                |             |           |      √      |
 |  setting-modal  |                |             |     √     |      √      |
-
 
 ## 用法
 
