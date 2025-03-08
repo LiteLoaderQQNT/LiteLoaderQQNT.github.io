@@ -359,4 +359,20 @@ features:
   - title: 移除自定义气泡
     details: 移除自定义气泡，并替换为默认极简主题样式
     link: https://github.com/pasical/Remove-Custom-Bubbles/tree/main
+    
+  - title: 自定义聊天气泡
+    details: 美化你的聊天气泡 ~(￣▽￣)~
+    link: https://github.com/LateDreamXD/llqqnt-custom_msgbub/tree/main
+
+  - title: S4U 主题
+    details: LiteLoaderQQNT 的 S4U 主题
+    link: https://github.com/XCWQW1/LiteLoaderQQNT-Theme-S4U/tree/main
+
+  - title: lib-moremenu
+    details: 允许用户添加左下角的更多菜单选项
+    link: https://github.com/scarletborder/LLQQNT-lib-moremenu/tree/main
+
+  - title: ARK Sender
+    details: 一个用于发送 ARK 的插件
+    link: https://github.com/KyuharuTE/ark_sender/tree/main
 ---
