@@ -1,10 +1,8 @@
 # 插件
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.2 编写
+此文档为 LiteLoaderQQNT 1.2.3 编写
 :::
-
-
 
 ## 安装
 
@@ -16,9 +14,7 @@
 将插件目录移动到 `LiteLoaderQQNT/plugins` 文件夹内，如果插件是压缩包请先解压
 
 - **插件操作**  
-可以先手动安装社区内开发的插件市场类插件，在其中安装插件
-
-
+可以先手动安装社区内开发的插件市场类插件（例如[plugin-list-viewer](https://github.com/ltxhhz/LL-plugin-list-viewer)），在其中安装插件
 
 ## 卸载
 
@@ -29,9 +25,7 @@
 在 `plugins` 目录中删除对应目录，不想保留插件数据在 `data` 目录下删除对应目录
 
 - **插件操作**  
-使用插件市场类插件，可能会提供卸载插件的功能，找到你想卸载的插件即可
-
-
+使用插件市场类插件（例如[plugin-list-viewer](https://github.com/ltxhhz/LL-plugin-list-viewer)），提供卸载插件的功能，找到你想卸载的插件即可
 
 ## 寻找
 
@@ -41,10 +35,10 @@
 LiteLoaderQQNt 官网下面已列出全部已收录插件，点击卡片即可跳转至对应仓库
 
 - **插件市场**  
-有一些社区内开发的插件市场，安装后可列出大量插件，官网首页即可找到此类插件
+有一些社区内开发的插件市场（例如[plugin-list-viewer](https://github.com/ltxhhz/LL-plugin-list-viewer)），安装后可列出大量插件，官网首页即可找到此类插件
 
 - **插件列表**  
-官方维护着一份插件列表，收录了已知的大部分插件，可在官网首页中查看详情
+官方维护着一份插件列表，收录了已知的大部分插件，可在官网首页中查看详情。此外，还有一份json格式的插件列表在<https://github.com/LiteLoaderQQNT/Plugin-List/blob/v4/plugins.json>列出
 
 - **通过搜索**  
 LiteLoaderQQNT 的插件基本发布在 GitHub，善用搜索可以快速的找到所需插件

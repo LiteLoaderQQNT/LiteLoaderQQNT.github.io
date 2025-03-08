@@ -4,17 +4,11 @@
 此文档为 LiteLoaderQQNT 1.2.2 编写
 :::
 
-
-
 ## 介绍
 
 一组可在 `main` `renderer` `preload` 环境内使用的常量与方法，仅暴露与 LiteLoaderQQNT 相关内容
 
-
-
 ## 用法
-
-
 
 ``` javascript
 LiteLoader: {
