@@ -375,4 +375,8 @@ features:
   - title: ARK Sender
     details: 一个用于发送 ARK 的插件
     link: https://github.com/KyuharuTE/ark_sender/tree/main
+
+  - title: 侧栏编辑
+    details: so fuck you sidebar!
+    link: https://github.com/ZhouJump/qq-fuck-sidebar/tree/master
 ---
