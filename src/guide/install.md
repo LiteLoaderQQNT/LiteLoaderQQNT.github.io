@@ -27,7 +27,7 @@
 你需要先下载 LiteLoaderQQNT 到任意位置，以下有两种方式
 
 - **Release**  
-前往 [LiteLoaderQQNT Release页](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/release/latest)，下载 `LiteLoaderQQNT.zip` 文件解压到任意位置
+前往 [LiteLoaderQQNT Release页](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/releases/latest)，下载 `LiteLoaderQQNT.zip` 文件解压到任意位置
 
 - **Clone**  
 使用 Git 工具将 LiteLoaderQQNT 仓库 Clone 到本地任意位置
