@@ -1,7 +1,8 @@
 # 安装
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.3 编写
+此文档为 LiteLoaderQQNT 1.2.4 编写  
+目前版本暂时仅支持 Windows 64 位，需搭配频道内未公开的 dbghelp.dll 方可使用
 :::
 
 ## 使用社区奇妙工具
@@ -56,7 +57,7 @@ git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
    - 如果存在，则app路径为 `QQNT\versions\版本号\resources\app`
    - 否则app路径为 `QQNT\resources\app`
 
-3. 在`app\app_launcher`中创建一个`LiteLoader.js` 文件，其中 `LiteLoader` 为文件名可随意设置，写入 ``require(String.raw`*`)`` 其中 \* 为 LiteLoaderQQNT 的路径，要填写绝对路径
+3. 在`app\app_launcher`中创建一个`LiteLoader.js` 文件（如果没有app_launcher目录就自己创建），其中 `LiteLoader` 为文件名可随意设置，写入 ``require(String.raw`*`)`` 其中 \* 为 LiteLoaderQQNT 的路径，要填写绝对路径
 
 4. 修改 `app\package.json` 文件，将 `main` 后值改为 `./app_launcher/LiteLoader.js`，其中 `LiteLoader` 可以改成你创建的文件名
 

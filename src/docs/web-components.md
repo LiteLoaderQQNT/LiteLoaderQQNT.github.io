@@ -1,7 +1,8 @@
 # Web Components
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.2 编写
+此文档为 LiteLoaderQQNT 1.2.4 编写  
+目前版本暂时仅支持 Windows 64 位，需搭配频道内未公开的 dbghelp.dll 方可使用
 :::
 
 ## 介绍
