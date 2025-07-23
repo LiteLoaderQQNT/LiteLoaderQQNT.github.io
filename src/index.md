@@ -379,4 +379,16 @@ features:
   - title: 侧栏编辑
     details: so fuck you sidebar!
     link: https://github.com/ZhouJump/qq-fuck-sidebar/tree/master
+
+  - title: 扩大关闭按钮
+    details: 把原先那一点点大的关闭按钮弄大一些
+    link: https://github.com/JoeYe-233/QQNT-LARGER-Close-Button/tree/main
+
+  - title: LiteLoaderQQNT-ForceExit
+    details: extension which enables user to terminate QQ process in QQ Main window
+    link: https://github.com/scarletborder/LiteLoaderQQNT-ForceExit/tree/master
+
+  - title: WakaTime
+    details: 通过 WakaTime 跟踪您的 QQ 使用情况 / Track your QQ usage with WakaTime
+    link: https://github.com/KomoriDev/qq-wakatime/tree/master
 ---
