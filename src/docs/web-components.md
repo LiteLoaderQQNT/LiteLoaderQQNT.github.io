@@ -255,21 +255,21 @@ settingSelectElement.addEventListener("selected", (event) => {
 
 分割线
 
-- `data-orientation` - 方向
-  - `horizontal` - 水平
-  - `vertical` - 垂直
+- `data-direction` - 排列方向
+  - `column` - 纵向
+  - `row` - 横向
 
 ``` html
 <setting-section data-title="标题">
     <setting-panel>
         <setting-list data-direction="column">
             <setting-item>...</setting-item>
-            <data-orientation data-orientation="horizontal"></data-orientation>
+            <setting-divider data-direction="row"></setting-divider>
             <setting-item>...</setting-item>
         </setting-list>
         <setting-list data-direction="row">
             <setting-item>...</setting-item>
-            <data-orientation data-orientation="vertical"></data-orientation>
+            <setting-divider data-direction="column"></setting-divider>
             <setting-item>...</setting-item>
         </setting-list>
     </setting-panel>
