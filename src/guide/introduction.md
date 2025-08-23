@@ -2,7 +2,10 @@
 
 ::: warning 警告
 此文档为 LiteLoaderQQNT 1.3.0 编写  
-目前 Windows 系统需搭配频道内未公开的 dbghelp.dll 方可使用
+目前 Windows 系统需搭配频道内未公开的 dbghelp.dll 方可使用  
+
+不保证防踢防封！！  
+实测在作者的 QQ 环境下一天内偶尔掉线三四次，无安全中心警告单纯下线
 :::
 
 ## 这是什么
