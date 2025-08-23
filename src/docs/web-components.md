@@ -5,10 +5,28 @@
 
 LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件，使你能够简单且快速的构建 QQNT 原生样式的插件配置界面
 
-自定义标签全部由 `setting-` 开头，自定义属性全部由 `data-` `is-` 开头并且是响应式，以下是已封装实现的组件标签以及属性
+自定义标签全部由 `setting-` 开头，所有组件继承自 `BaseElement` 父类可调用对应方法，自定义属性全部由 `data-` `is-` 开头并且是响应式
+
+以下是 `BaseElement` 父类方法可在组件实例中调用：
+
+|                |             setter method             |       getter method       |
+| :------------: | :-----------------------------------: | :-----------------------: |
+|   data-title   |        setTitle(title: String)        |    getTitle(): String     |
+|   data-value   |        setValue(value: String)        |    getValue(): String     |
+|   data-type    |         setType(type: String)         |     getType(): String     |
+| data-direction |    setDirection(direction: String)    |  getDirection(): String   |
+| is-collapsible | setCollapsible(collapsible: Boolean ) | getCollapsible(): Boolean |
+|  is-selected   |    setSelected(selected: Boolean)     |  getSelected(): Boolean   |
+|   is-active    |      setActive(active: Boolean)       |   getActive(): Boolean    |
+|  is-disabled   |    setDisabled(disabled: Boolean)     |  getDisabled(): Boolean   |
+
+- `data-type` 仅接受或返回 `"primary" | "secondary"`
+- `data-direction` 仅接受或返回 `"column" | "row"`
+
+以下是已封装实现的组件标签以及属性：
 
 |                 | data-title | data-value | data-type | data-direction |
-|:---------------:|:----------:|:----------:|:---------:|:--------------:|
+| :-------------: | :--------: | :--------: | :-------: | :------------: |
 | setting-section |     √      |            |           |                |
 |  setting-panel  |            |            |           |                |
 |  setting-list   |     √      |            |           |       √        |
@@ -23,7 +41,7 @@ LiteLoaderQQNT 使用 Web Components 封装了 QQNT 设置界面的一些组件�
 |  setting-modal  |     √      |            |           |                |
 
 |                 | is-collapsible | is-selected | is-active | is-disabled |
-|:---------------:|:--------------:|:-----------:|:---------:|:-----------:|
+| :-------------: | :------------: | :---------: | :-------: | :---------: |
 | setting-section |                |             |           |      √      |
 |  setting-panel  |                |             |           |      √      |
 |  setting-list   |       √        |             |     √     |      √      |
