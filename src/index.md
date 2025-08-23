@@ -136,10 +136,6 @@ features:
     details: · 盘古 | 开天辟地 ·
     link: https://github.com/MisaLiu/LiteLoaderQQNT-Pangu/tree/master
 
-  - title: LLOneBot
-    details: 实现 OneBot 11 协议，用于 QQ 机器人开发
-    link: https://github.com/LLOneBot/LLOneBot/tree/main
-
   - title: OneBotApi-JS
     details: 在LiteLoaderQQNT上添加OneBot协议支持
     link: https://github.com/2891954521/LiteLoaderQQNT-OneBotApi-JS/tree/main
@@ -195,10 +191,6 @@ features:
   - title: GPT-Reply
     details: 在 QQNT 直接使用ChatGPT进行回复
     link: https://github.com/wangyz1999/LiteLoaderQQNT-GPT-Reply/tree/main
-
-  - title: QQ消息修改
-    details: 聊天界面，右键点击文本消息，选择【编辑消息内容】编辑即可
-    link: https://github.com/lianquke/LiteLoaderQQNT-MessageEdit/tree/main
 
   - title: Daily Card
     details: 一个用于自动抽取每日幸运字符的插件
