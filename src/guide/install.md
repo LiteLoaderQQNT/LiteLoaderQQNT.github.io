@@ -1,9 +1,5 @@
 # 安装
 
-::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.4 编写  
-目前版本暂时仅支持 Windows 64 位，需搭配频道内未公开的 dbghelp.dll 方可使用
-:::
 
 ## 使用社区奇妙工具
 
@@ -22,12 +18,6 @@
 - <https://github.com/Mzdyl/LiteLoaderQQNT_Install> 
 
   使用 Python 编写的安装脚本，支持 Windows / Linux / MacOS。
-
-- ~~<https://github.com/huiyadanli/RevokeMsgPatcher>~~
-
-  ~~微信/QQ/TIM 防撤回补丁。~~
-
-  已在 v2.1 版本移除了 LiteLoaderQQNT 的安装。
 
 - <https://github.com/NapNeko/NapCat-Windows-Boot> 
 

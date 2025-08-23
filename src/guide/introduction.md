@@ -1,13 +1,11 @@
 # 介绍
 
 ::: warning 警告
-此文档为 LiteLoaderQQNT 1.2.4 编写  
-目前版本暂时仅支持 Windows 64 位，需搭配频道内未公开的 dbghelp.dll 方可使用
+此文档为 LiteLoaderQQNT 1.3.0 编写  
+目前 Windows 系统需搭配频道内未公开的 dbghelp.dll 方可使用
 :::
 
 ## 这是什么
-
-~~一个名为沫烬染的Furry闲着研究QQNT后决定狠狠的注入福瑞代码开发了此插件框架~~
 
 LiteLoaderQQNT 是 QQNT 的插件加载器，一般在 QQNT 的环境内简称为 LiteLoader  
 它可以让你自由地为 QQNT 添加各种插件，并实现例如美化主题、增加功能等各种功能  
