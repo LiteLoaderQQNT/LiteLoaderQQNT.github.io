@@ -1,7 +1,7 @@
 # 安装
 
 
-## 使用社区奇妙工具
+## 使用来自社区的自动化安装工具
 
 通过本段提供的方案完成安装后，直接跳到 [6. 检查是否安装成功](#%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F) 即可。
 
@@ -54,7 +54,11 @@ git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
 
 请根据你的操作系统架构在 Telegram 群内下载 `dbghelp_*.dll` 文件，将其重命名为 `dbghelp.dll` 后放入 `QQ.exe` 同级目录下。
 
-## 修改文件手动安装
+::: warning 警告
+请确保您的 **操作系统**, **QQNT**, **dbghelp.dll** 文件均为同一架构 (ARM64 / x64)，否则可能出现怪异行为。
+:::
+
+## 手动修补 QQNT 中的必要文件
 
 1. 转到 QQNT 安装目录
 
