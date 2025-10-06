@@ -60,6 +60,9 @@ export default defineConfig({
             message: "赞助：<a href='https://afdian.com/a/mojinran'>爱发电</a>",
             copyright: "基于 <a href='https://github.com/LiteLoaderQQNT/LiteLoaderQQNT/blob/main/LICENSE'>MIT</a> 许可发布"
         },
+        socialLinks: [
+          { icon: 'github', link: 'https://github.com/LiteLoaderQQNT/LiteLoaderQQNT' }
+        ],
         externalLinkIcon: true
     }
 });
