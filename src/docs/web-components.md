@@ -296,6 +296,6 @@ settingSelectElement.addEventListener("selected", (event) => {
 - `is-active` - 显示
 
 ``` html
-<setting-modal data-tite="LiteLoaderQQNT">...</setting-modal>
-<setting-modal data-tite="LiteLoaderQQNT" is-active>...</setting-modal>
+<setting-modal data-title="LiteLoaderQQNT">...</setting-modal>
+<setting-modal data-title="LiteLoaderQQNT" is-active>...</setting-modal>
 ```
