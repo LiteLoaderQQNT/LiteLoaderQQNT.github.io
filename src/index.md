@@ -100,10 +100,6 @@ features:
     details: 一个用于直接以语音形式发送音频文件的插件
     link: https://github.com/xtaw/LiteLoaderQQNT-Audio-Sender/tree/master
 
-  - title: QQRedPackGetter
-    details: 基于模拟点击实现的QQ抢红包工具
-    link: https://github.com/kagg886/QQRedPackGetter/tree/master
-
   - title: MomotalkNTQQ 主题
     details: 低仿 MomotalkNTQQ 风格的 QQNT 主题
     link: https://github.com/MiyakoLol/MomoTalkNTQQ-Theme/tree/v4
@@ -255,10 +251,6 @@ features:
   - title: Border Card UI Theme
     details: Stapxs QQ Lite 2.0 Electron 版 LiteLoaderQQNT 迁移主题。
     link: https://github.com/Stapxs/Stapxs-QQ-Lite-Theme/tree/main
-
-  - title: NapCatQQ
-    details: 高性能的 OneBot 11 协议实现
-    link: https://github.com/NapNeko/NapCatQQ/tree/main
 
   - title: QQNoFlash
     details: 别用任务栏图标烦我好吗
