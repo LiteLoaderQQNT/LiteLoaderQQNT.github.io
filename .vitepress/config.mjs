@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
     srcDir: "src",
-    lang: "zh-Hans",
+    lang: "zh-CN",
     title: "LiteLoaderQQNT",
     description: "QQNT 插件加载器",
     sitemap: {
@@ -30,12 +30,9 @@ export default defineConfig({
                 ]
             }
         ],
-        docFooter: {
-            prev: "上一页",
-            next: "下一页"
-        },
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/LiteLoaderQQNT/LiteLoaderQQNT' }
+            { icon: "telegram", link: "https://t.me/LiteLoaderQQNT" },
+            { icon: "github", link: "https://github.com/LiteLoaderQQNT/LiteLoaderQQNT" }
         ]
     }
 });
