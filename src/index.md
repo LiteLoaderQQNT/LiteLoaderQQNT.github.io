@@ -9,15 +9,11 @@ hero:
   actions:
     - theme: brand
       text: 开始使用
-      link: /guide/introduction
+      link: /guide/install
 
     - theme: alt
       text: 开发文档
-      link: /docs/introduction
-
-    - theme: alt
-      text: GitHub
-      link: https://github.com/LiteLoaderQQNT
+      link: /docs/new-plugin
 
 features:
   - title: Chii DevTools
@@ -343,7 +339,7 @@ features:
   - title: 移除自定义气泡
     details: 移除自定义气泡，并替换为默认极简主题样式
     link: https://github.com/pasical/Remove-Custom-Bubbles/tree/main
-    
+
   - title: 自定义聊天气泡
     details: 美化你的聊天气泡 ~(￣▽￣)~
     link: https://github.com/LateDreamXD/llqqnt-custom_msgbub/tree/main
