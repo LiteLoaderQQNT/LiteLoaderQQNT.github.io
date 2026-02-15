@@ -52,7 +52,12 @@ git clone --depth 1 https://github.com/LiteLoaderQQNT/LiteLoaderQQNT.git
 
 对于 Windows 系统用户，还需要绕过 QQNT 文件校验。
 
-请根据你的操作系统架构在 Telegram 群内下载 `dbghelp_*.dll` 文件，将其重命名为 `dbghelp.dll` 后放入 `QQ.exe` 同级目录下。
+请根据你的操作系统架构在 [Telegram 群](https://t.me/LiteLoaderQQNT)内下载 `dbghelp_*.dll` 文件，将其重命名为 `dbghelp.dll` 后放入 `QQ.exe` 同级目录下。
+
+::: note 提示
+加群前请先查看群简介。
+加群时请查看验证机器人 [NeoAuthBot](https://t.me/NeoAuthBot) 的消息
+:::
 
 ::: warning 警告
 请确保您的 **操作系统**, **QQNT**, **dbghelp.dll** 文件均为同一架构 (ARM64 / x64)，否则可能出现怪异行为。
